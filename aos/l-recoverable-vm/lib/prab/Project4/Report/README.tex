@@ -1,0 +1,64 @@
+\documentclass[[10pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\title{lRVM: light weight Recoverable Virtual Memory}
+\author{
+    Machiry Aravind Kumar\\
+   \and
+    Prabhavathy Viswanathan
+}
+\date{Georgia Institute of Technology\\
+\{amachiry,pviswanathan6\}@gatech.edu}
+\begin{document}
+\maketitle
+\begin{enumerate}
+\item How to compile your library?
+\begin{enumerate}
+\item make clean.
+\item make all.
+\item gcc $<$your\_test\_file$>$ librvm.a (make sure that you include "rvm.h" in the test file or copy rvm.h to /usr/include)
+\end{enumerate}
+\item Any thoughts you have on the project, including things that work especially well or which don't work.\\\\
+There has to be bakeoff kind of competetion at the end of the project. This will motivate students to write good and performent code. As of now, most of the students just write code which works for base cases. Problems like : memory leak, corner cases are not taken in to consideration, but these need to be fixed for any system code.
+
+\item How you use logfiles to accomplish persistency plus transaction semantics?
+\begin{itemize}
+\item Ensuring transaction semantics: When a region of the memory is about to be modified, we copy the region in to in memory backup area. When a transaction is aborted we copy the contents from the backup area to the corresponding memory region which ensures that all the changes are reverted back. On the other hand, if the transaction is committed, we copy the contents of the memory region to the log file in the following format:
+\begin{lstlisting}
+	STARTTRANSACT:<transactionID>
+	<for each region>
+	SEGNAME:<segmentName>
+	OFFSET:<offset>
+	DIFFS:<sizeofthemodifiedregion>
+	<data in raw bytes of DIFFS size>
+	ENDTRANSACT	 
+\end{lstlisting}
+\item Persistency is achieved by recording all the modifications to the on disk logfile (lrvmlog), which will be stored in the same directory as the one given for rvm\_init.
+\end{itemize}
+\item How many files do you have? What goes in them?\\\\
+We maintain a file for each segment, which stores the persistent contents of the corresponding segment and 2 metadata files:
+\begin{itemize}
+\item lrvmlog : This is the log file that contains all the persisted modifications of various transactions.
+\item lrvmSEGINFO : This file contains information of various segments along with their size.
+\end{itemize}
+\item How do the files get cleaned up, so that they do not expand indefinitely?\\\\
+	As mentioned before, we maintain only 2 files for our metadata: lrvmlog and lrvmSEGINFO.
+\begin{itemize}
+\item lrvmlog gets cleaned up in 2 ways: First, when a segment is mapped, we consume all the modifications for the segment from the log file and second from explicit call from user to truncate the log: rvm\_truncate\_log.	
+\item lrvmSEGINFO gets cleaned up when an existing segment is deleted by using : rvm\_destroy
+\end{itemize}
+\item How to run tests?
+\begin{itemize}
+\begin{enumerate}
+\item Compile the sources to get librvm.a
+\item Copy librvm.a to Tests folder.
+\item cd to Tests folder
+\item run python tester.py
+\end{enumerate}
+\end{itemize}
+\end{enumerate}
+
+\end{document}

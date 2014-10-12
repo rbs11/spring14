@@ -1,0 +1,27 @@
+Adding user rshetty7 to group authjobs
+Time for 2 Processes [0.000057]
+Time for 4 Processes [0.001035]
+Time for 6 Processes [0.001060]
+Time for 8 Processes [0.000078]
+---------------------------
+Time for 2 Processes [0.000133]
+Time for 4 Processes [0.010320]
+Time for 6 Processes [0.000081]
+Time for 8 Processes [0.000768]
+---------------------------
+Time for 2 Processes [0.000106]
+Time for 4 Processes [0.000069]
+Time for 6 Processes [0.000210]
+Time for 8 Processes [0.003938]
+---------------------------
+Time for 2 Processes [0.001212]
+Time for 4 Processes [0.003862]
+Time for 6 Processes [0.000195]
+Time for 8 Processes [0.002393]
+---------------------------
+Time for 2 Processes [0.000051]
+Time for 4 Processes [0.000589]
+Time for 6 Processes [0.001289]
+Time for 8 Processes [0.003059]
+----------END-----------------
+Removing user rshetty7 from group authjobs

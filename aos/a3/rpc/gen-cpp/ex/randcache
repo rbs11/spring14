@@ -1,0 +1,101 @@
+#include "web_cache.h"
+#include <map>
+#include <iterator>
+
+static int max_size;
+static int cache_size;
+
+/* Use STL Map container to store url<->[webpage, freq] mapping */
+typedef std::map<std::string, webpage> uw_map;
+static uw_map url_to_webpage;
+
+/* initialize webcache */
+
+int32_t random_0_to_n(int n)
+{
+	srand(time(NULL));
+	return rand()%n;
+}
+void init_web_cache(const int size)
+{
+    max_size = size;
+    cache_size = 0;
+}
+
+/* is webpage in cache? */
+bool check_web_cache(const std::string& url)
+{
+    if (max_size == 0) /* 0 byte cache OR no-cache */
+        return false;
+
+    if (url_to_webpage.size() == 0) /* webcache is empty */
+        return false;
+
+    if (url_to_webpage.count(url) != 0) /* in webcache */
+        return true;
+    else /* not in webcache */
+        return false;
+}
+
+/* returns the webpage from cache */
+void get_webpage_from_cache(webpage& _return,
+        const std::string& url)
+{
+    std::cout<<"Getting page "<<url<<" from cache \n";
+    /* safety check */
+    assert(url_to_webpage.size() != 0);
+   
+    uw_map::iterator it1;
+
+    /* get webpage from cache */
+    it1 = url_to_webpage.find(url);
+    assert(it1 != url_to_webpage.end());
+
+    _return.webpage_data.assign(it1->second.webpage_data);
+    _return.webpage_len = it1->second.webpage_len; 
+
+}
+
+static void evict_random_page(void)
+{
+    /* safety check */
+    assert(url_to_webpage.size() != 0);
+
+    /* get LFU url */
+    uw_map::iterator it1 = url_to_webpage.begin();
+    std::advance( it1, random_0_to_n(url_to_webpage.size()) );
+    //std::string url;
+    //url.assign(it1->second);
+    std::cout<<"Evicting page "<<it1->first<<" from cache \n";
+    /* erase from both maps */
+    cache_size -= it1->second.webpage_len;
+    url_to_webpage.erase(it1);
+   
+}
+
+/* store the webpage in cache */
+void put_webpage_to_cache(const webpage& _input,
+        const std::string& url)
+{
+    /* If web page is bigger than our cache size, return */
+    if (_input.webpage_len > max_size)
+        return;
+
+    /* evict LFU pages to make place for this new webpage */
+    while (_input.webpage_len > (max_size - cache_size)) {
+        evict_random_page(); /* evict one webpage at a time */
+    }
+	std::cout<<"Putting page "<<url<<" to cache \n";
+    /* safety check */
+    assert(_input.webpage_len <= (max_size - cache_size));
+
+    webpage newpage;
+    newpage.webpage_data.assign(_input.webpage_data);
+    newpage.webpage_len = _input.webpage_len;
+
+    /* insert the new webpage into the cache */
+    url_to_webpage.insert(std::pair<std::string, webpage>(url, newpage));
+
+    /* update cache_size */
+    cache_size += _input.webpage_len;
+}

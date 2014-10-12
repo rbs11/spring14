@@ -1,0 +1,52 @@
+Adding user rshetty7 to group authjobs
+Time taken for 2 Procs 2 threads = 0.000817ms
+Time taken for 2 Procs 4 threads = 0.000243ms
+Time taken for 2 Procs 8 threads = 0.000349ms
+Time taken for 4 Procs 2 threads = 0.003223ms
+Time taken for 4 Procs 4 threads = 0.001582ms
+Time taken for 4 Procs 8 threads = 0.021914ms
+Time taken for 8 Procs 2 threads = 0.003958ms
+Time taken for 8 Procs 4 threads = 0.033032ms
+Time taken for 8 Procs 8 threads = 0.062544ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000644ms
+Time taken for 2 Procs 4 threads = 0.000253ms
+Time taken for 2 Procs 8 threads = 0.000304ms
+Time taken for 4 Procs 2 threads = 0.000870ms
+Time taken for 4 Procs 4 threads = 0.000324ms
+Time taken for 4 Procs 8 threads = 0.031927ms
+Time taken for 8 Procs 2 threads = 0.003813ms
+Time taken for 8 Procs 4 threads = 0.032885ms
+Time taken for 8 Procs 8 threads = 0.056201ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000161ms
+Time taken for 2 Procs 4 threads = 0.000223ms
+Time taken for 2 Procs 8 threads = 0.000609ms
+Time taken for 4 Procs 2 threads = 0.000223ms
+Time taken for 4 Procs 4 threads = 0.010939ms
+Time taken for 4 Procs 8 threads = 0.033132ms
+Time taken for 8 Procs 2 threads = 0.002553ms
+Time taken for 8 Procs 4 threads = 0.022916ms
+Time taken for 8 Procs 8 threads = 0.056572ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000213ms
+Time taken for 2 Procs 4 threads = 0.000261ms
+Time taken for 2 Procs 8 threads = 0.000283ms
+Time taken for 4 Procs 2 threads = 0.000877ms
+Time taken for 4 Procs 4 threads = 0.001658ms
+Time taken for 4 Procs 8 threads = 0.029817ms
+Time taken for 8 Procs 2 threads = 0.011037ms
+Time taken for 8 Procs 4 threads = 0.043303ms
+Time taken for 8 Procs 8 threads = 0.057655ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000168ms
+Time taken for 2 Procs 4 threads = 0.000234ms
+Time taken for 2 Procs 8 threads = 0.000456ms
+Time taken for 4 Procs 2 threads = 0.002591ms
+Time taken for 4 Procs 4 threads = 0.001351ms
+Time taken for 4 Procs 8 threads = 0.021849ms
+Time taken for 8 Procs 2 threads = 0.003338ms
+Time taken for 8 Procs 4 threads = 0.020982ms
+Time taken for 8 Procs 8 threads = 0.042521ms
+------------END------------------
+Removing user rshetty7 from group authjobs

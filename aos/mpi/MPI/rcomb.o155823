@@ -1,0 +1,172 @@
+Adding user rshetty7 to group authjobs
+Time taken for 2 Procs 2 threads = 0.000227ms
+Time taken for 2 Procs 4 threads = 0.000253ms
+Time taken for 2 Procs 8 threads = 0.000312ms
+Time taken for 4 Procs 2 threads = 0.000778ms
+Time taken for 4 Procs 4 threads = 0.003268ms
+Time taken for 4 Procs 8 threads = 0.021315ms
+Time taken for 8 Procs 2 threads = 0.002158ms
+Time taken for 8 Procs 4 threads = 0.032303ms
+Time taken for 8 Procs 8 threads = 0.042836ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000484ms
+Time taken for 2 Procs 4 threads = 0.000229ms
+Time taken for 2 Procs 8 threads = 0.003088ms
+Time taken for 4 Procs 2 threads = 0.000399ms
+Time taken for 4 Procs 4 threads = 0.001252ms
+Time taken for 4 Procs 8 threads = 0.032455ms
+Time taken for 8 Procs 2 threads = 0.002205ms
+Time taken for 8 Procs 4 threads = 0.032257ms
+Time taken for 8 Procs 8 threads = 0.056326ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000181ms
+Time taken for 2 Procs 4 threads = 0.000249ms
+Time taken for 2 Procs 8 threads = 0.000298ms
+Time taken for 4 Procs 2 threads = 0.001109ms
+Time taken for 4 Procs 4 threads = 0.001924ms
+Time taken for 4 Procs 8 threads = 0.034132ms
+Time taken for 8 Procs 2 threads = 0.008246ms
+Time taken for 8 Procs 4 threads = 0.030692ms
+Time taken for 8 Procs 8 threads = 0.047963ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000192ms
+Time taken for 2 Procs 4 threads = 0.000246ms
+Time taken for 2 Procs 8 threads = 0.001559ms
+Time taken for 4 Procs 2 threads = 0.000415ms
+Time taken for 4 Procs 4 threads = 0.002351ms
+Time taken for 4 Procs 8 threads = 0.010865ms
+Time taken for 8 Procs 2 threads = 0.011437ms
+Time taken for 8 Procs 4 threads = 0.043357ms
+Time taken for 8 Procs 8 threads = 0.057925ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.002401ms
+Time taken for 2 Procs 4 threads = 0.000278ms
+Time taken for 2 Procs 8 threads = 0.002770ms
+Time taken for 4 Procs 2 threads = 0.000371ms
+Time taken for 4 Procs 4 threads = 0.001103ms
+Time taken for 4 Procs 8 threads = 0.033402ms
+Time taken for 8 Procs 2 threads = 0.000177ms
+Time taken for 8 Procs 4 threads = 0.033417ms
+Time taken for 8 Procs 8 threads = 0.052224ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000157ms
+Time taken for 2 Procs 4 threads = 0.001332ms
+Time taken for 2 Procs 8 threads = 0.001034ms
+Time taken for 4 Procs 2 threads = 0.009319ms
+Time taken for 4 Procs 4 threads = 0.002181ms
+Time taken for 4 Procs 8 threads = 0.022028ms
+Time taken for 8 Procs 2 threads = 0.001896ms
+Time taken for 8 Procs 4 threads = 0.021968ms
+Time taken for 8 Procs 8 threads = 0.073528ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000236ms
+Time taken for 2 Procs 4 threads = 0.002347ms
+Time taken for 2 Procs 8 threads = 0.010718ms
+Time taken for 4 Procs 2 threads = 0.003357ms
+Time taken for 4 Procs 4 threads = 0.000234ms
+Time taken for 4 Procs 8 threads = 0.032486ms
+Time taken for 8 Procs 2 threads = 0.010923ms
+Time taken for 8 Procs 4 threads = 0.032847ms
+Time taken for 8 Procs 8 threads = 0.056346ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000660ms
+Time taken for 2 Procs 4 threads = 0.000233ms
+Time taken for 2 Procs 8 threads = 0.004792ms
+Time taken for 4 Procs 2 threads = 0.000582ms
+Time taken for 4 Procs 4 threads = 0.000720ms
+Time taken for 4 Procs 8 threads = 0.033314ms
+Time taken for 8 Procs 2 threads = 0.011242ms
+Time taken for 8 Procs 4 threads = 0.043461ms
+Time taken for 8 Procs 8 threads = 0.068182ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000409ms
+Time taken for 2 Procs 4 threads = 0.000225ms
+Time taken for 2 Procs 8 threads = 0.000263ms
+Time taken for 4 Procs 2 threads = 0.000158ms
+Time taken for 4 Procs 4 threads = 0.002296ms
+Time taken for 4 Procs 8 threads = 0.021846ms
+Time taken for 8 Procs 2 threads = 0.004063ms
+Time taken for 8 Procs 4 threads = 0.033061ms
+Time taken for 8 Procs 8 threads = 0.041781ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000439ms
+Time taken for 2 Procs 4 threads = 0.000209ms
+Time taken for 2 Procs 8 threads = 0.000581ms
+Time taken for 4 Procs 2 threads = 0.001638ms
+Time taken for 4 Procs 4 threads = 0.000451ms
+Time taken for 4 Procs 8 threads = 0.021834ms
+Time taken for 8 Procs 2 threads = 0.006913ms
+Time taken for 8 Procs 4 threads = 0.039017ms
+Time taken for 8 Procs 8 threads = 0.044063ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000190ms
+Time taken for 2 Procs 4 threads = 0.000202ms
+Time taken for 2 Procs 8 threads = 0.000268ms
+Time taken for 4 Procs 2 threads = 0.000839ms
+Time taken for 4 Procs 4 threads = 0.000224ms
+Time taken for 4 Procs 8 threads = 0.024022ms
+Time taken for 8 Procs 2 threads = 0.001211ms
+Time taken for 8 Procs 4 threads = 0.043451ms
+Time taken for 8 Procs 8 threads = 0.048691ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000183ms
+Time taken for 2 Procs 4 threads = 0.000247ms
+Time taken for 2 Procs 8 threads = 0.000332ms
+Time taken for 4 Procs 2 threads = 0.000882ms
+Time taken for 4 Procs 4 threads = 0.002162ms
+Time taken for 4 Procs 8 threads = 0.031399ms
+Time taken for 8 Procs 2 threads = 0.000817ms
+Time taken for 8 Procs 4 threads = 0.033352ms
+Time taken for 8 Procs 8 threads = 0.070251ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000208ms
+Time taken for 2 Procs 4 threads = 0.000209ms
+Time taken for 2 Procs 8 threads = 0.003549ms
+Time taken for 4 Procs 2 threads = 0.010500ms
+Time taken for 4 Procs 4 threads = 0.000586ms
+Time taken for 4 Procs 8 threads = 0.035014ms
+Time taken for 8 Procs 2 threads = 0.000217ms
+Time taken for 8 Procs 4 threads = 0.033195ms
+Time taken for 8 Procs 8 threads = 0.050113ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000720ms
+Time taken for 2 Procs 4 threads = 0.000220ms
+Time taken for 2 Procs 8 threads = 0.003292ms
+Time taken for 4 Procs 2 threads = 0.000195ms
+Time taken for 4 Procs 4 threads = 0.000703ms
+Time taken for 4 Procs 8 threads = 0.021355ms
+Time taken for 8 Procs 2 threads = 0.000234ms
+Time taken for 8 Procs 4 threads = 0.033034ms
+Time taken for 8 Procs 8 threads = 0.049603ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000225ms
+Time taken for 2 Procs 4 threads = 0.000452ms
+Time taken for 2 Procs 8 threads = 0.000319ms
+Time taken for 4 Procs 2 threads = 0.001632ms
+Time taken for 4 Procs 4 threads = 0.000221ms
+Time taken for 4 Procs 8 threads = 0.032187ms
+Time taken for 8 Procs 2 threads = 0.001162ms
+Time taken for 8 Procs 4 threads = 0.034143ms
+Time taken for 8 Procs 8 threads = 0.052891ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.002611ms
+Time taken for 2 Procs 4 threads = 0.000765ms
+Time taken for 2 Procs 8 threads = 0.000544ms
+Time taken for 4 Procs 2 threads = 0.000518ms
+Time taken for 4 Procs 4 threads = 0.004263ms
+Time taken for 4 Procs 8 threads = 0.032217ms
+Time taken for 8 Procs 2 threads = 0.000156ms
+Time taken for 8 Procs 4 threads = 0.032891ms
+Time taken for 8 Procs 8 threads = 0.063013ms
+------------------------------
+Time taken for 2 Procs 2 threads = 0.000199ms
+Time taken for 2 Procs 4 threads = 0.000249ms
+Time taken for 2 Procs 8 threads = 0.000336ms
+Time taken for 4 Procs 2 threads = 0.002353ms
+Time taken for 4 Procs 4 threads = 0.000768ms
+Time taken for 4 Procs 8 threads = 0.021856ms
+Time taken for 8 Procs 2 threads = 0.001238ms
+Time taken for 8 Procs 4 threads = 0.022485ms
+Time taken for 8 Procs 8 threads = 0.053601ms
+------------END------------------
+Removing user rshetty7 from group authjobs

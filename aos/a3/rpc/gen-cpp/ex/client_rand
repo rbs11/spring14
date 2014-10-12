@@ -1,0 +1,94 @@
+#include <fstream>
+#include <stdlib.h>
+#include <time.h>
+
+#include "get_webpage.h"
+
+#include <transport/TSocket.h>
+#include <transport/TBufferTransports.h>
+#include <protocol/TBinaryProtocol.h>
+
+using namespace apache::thrift;
+using namespace apache::thrift::protocol;
+using namespace apache::thrift::transport;
+
+using namespace  ::GTClientServerRPC;
+
+int main(int argc, char **argv) {
+    boost::shared_ptr<TSocket> socket(new TSocket(SERVER_ADDR, 9090));
+    boost::shared_ptr<TTransport> transport(new TBufferedTransport(socket));
+    boost::shared_ptr<TProtocol> protocol(new TBinaryProtocol(transport));
+
+    if (argc != 2) {
+        printf("Incorrect Usage\n");
+        printf("Usage: %s <input.txt>\n", argv[0]);
+        return -1;
+    }
+
+    get_webpageClient client(protocol);
+    transport->open();
+#if DEBUG
+    client.ping();
+#endif
+
+    try {
+        /* Read URLs from input file and append to list */
+        std::vector<std::string> url_list;
+
+        std::string url;
+        std::ifstream url_file(argv[1]);
+        if (url_file.is_open()) {
+            while (getline(url_file, url)) {
+                url_list.push_back(url);        
+            }
+
+            url_file.close();
+        }
+
+        webpage result; /* Return result from server */
+
+        /* reset webcache stats */
+        client.reset_webcache_stats();
+
+        /* initialize random seed: */
+        srand(time(NULL));
+
+        /* call RPC */
+        uint32_t count = 0;
+        while (count++ < url_list.size()) {
+            url = url_list[rand() % url_list.size()];
+
+            std::cout << "Get webpage: " << url << std::endl;
+            client.get_webpage(result, url);
+#if DEBUG
+            std::cout << "Webpage data: " << result.webpage_data << std::endl;
+            std::cout << "Webpage length: " << result.webpage_len << std::endl;
+#endif
+        }
+
+        /* get the stats and print 'em out */
+        cache_stat stat;
+        client.get_webcache_stats(stat);
+#if DEBUG
+        std::cout << "Hit Count: " << stat.hit_count << std::endl;
+        std::cout << "Total Count: " << stat.total_count << std::endl;
+        std::cout << "Hit Bytes Count: " <<
+            stat.hit_bytes_count << std::endl;
+        std::cout << "Total Bytes Count: " <<
+            stat.total_bytes_count << std::endl;
+#endif
+        std::cout << "Random workload on webcache of size: " <<
+            (double)WEB_CACHE_SIZE/(double)1024 << "KBytes" << std::endl;
+        std::cout << "Hit Rate(%): " <<
+            ((double)stat.hit_count/(double)stat.total_count)*100 << std::endl;
+        std::cout << "Byte Hit Rate(%): " <<
+            ((double)stat.hit_bytes_count/(double)stat.total_bytes_count)*100 <<
+            std::endl;
+    } catch (error &err) {
+        std::cout << "Server returned error: " << err.why << "(" << err.what << ")" << std::endl;
+    }
+
+    transport->close();
+
+    return 0;
+}

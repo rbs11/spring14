@@ -1,0 +1,16 @@
+ECE6101 Course Project Source Code Package
+
+This package provides a simple but functional batch processing system. The original contents of the package are 3 folders and 6 building scripts. You can find the source files in src folder. The class folder is for storing class files. The fs folder symbolizes the shared filesystem on which the batch processing system is running. 
+
+To try this package out you can
+  1. Use buildAll.sh script to create the executable .jar files, which include client.jar jobs.jar scheduler.jar and worker.jar.
+
+  2. Start the scheduler by executing "java -jar scheduler.jar 51000". The scheduler will then keep listening at port 51000.
+
+  3. Start a worker by executing "java -jar worker.jar localhost 51000 51001" from a separate terminal. The first two arguments are the address and port of the scheduler. The last argument is the port on which the worker is listening. So that the worker will first report its existance to the scheduler running at localhost:51000, and then keep listening at port 51001. You can start multiple workers listening on different ports.
+
+  4. Submit a job by executing "java -jar client.jar localhost 51000 jobs.jar jobs.Hello" from a separate terminal. The first two arguments are the address and port of scheduler. The last two arguments are the file name and the class name. So that the client will submit the job file "jobs.jar" to scheduler running at localhost:51000, and ask the scheduler to run the job "jobs.Hello".
+
+  5. Submit another job by executing "java -jar client.jar localhost 51000 jobs.jar jobs.Mvm". This is matrix-vector-multiplication job. The job will read the matrix from shared filesystem "fs/example/matrix.txt" and multiple it with 4 different vectors "fs/example/vector0-3.txt" using 4 tasks. The output vectors will write back to the directory "fs/example".
+
+Since the scheduler and the workers are implemented with simple while(true) loop. You have to kill them manually, for example by pressing Ctrl+c in their terminals.

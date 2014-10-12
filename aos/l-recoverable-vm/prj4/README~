@@ -1,0 +1,33 @@
+Design:
+
+Persistence & Semantics:
+
+Assume a segment is mapped to memory and a transaction on this segment begins. About_to_modify is called with a specific range of addresses. On every about_to_modify call, we insert an element into the undo record and the redo log respectively. 
+The redo and undo logs are maintained as linked lists in which each node represents a change to a region specified by about_to_modify within a single transaction. 
+The undo list has a copy of the data at a state when the call is made. The redo list simple maps the segment buffer in memory and therefore will always mirror any change being made within this range. 
+
+On a commit, we will write the contents of the redo list into a redo log on disk. This redo log is maintained per segment and within the log we follow our own mechanics in terms of data format. For example, a changes to 2 segments would look like this in the redo log:
+
+#REDO LOG#<segment 1>
+<offset> <size>
+<buffer data.......(0-size)>
+
+#REDO LOG#<segment 2>
+<offset> <size>
+<buffer data.......(0-size)>
+
+
+This makes it easier to write to disk data segment on a truncate call because we have all the information we need. 
+
+At the end of a commit call, we clean up all the undo and redo lists that were maintained in memory.
+
+On an abort, we go back to the undo list which holds the data state before any of the modifications were made. We now copy these data segments into the in memory data segments that is being used by the application. This ensures that the old data will be reflected, in case the user of the application were to check the contents of the mapped segment after an abort. 
+
+At the end of an abort, we again clean up the redo and undo lists that were maintained in memory.
+
+On a truncate, we flush the data present in the redo log on disk onto the data segment.
+
+When there is rvm_map made for a particular data segment, it is possible that the on disk version may not be the latest copy. Therefore, we check if there is a redo log on disk corresponding to the data segment and if so, we will update the user mapped buffer with this data. This ensures that the user gets the absolute latest committed copy of the data.
+
+Cleanup: On disk redo logs are cleaned up whenever there is a truncate called by the user. 
+

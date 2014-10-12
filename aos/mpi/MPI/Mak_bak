@@ -1,0 +1,33 @@
+OMPFLAGS = -fopenmp
+OMPLIBS = -lgomp
+
+CC = gcc
+CPPFLAGS = -g -Wall
+LDFLAGS = -g -Wall
+LDLIBS = $(OMPLIBS)
+
+MPICC = mpicc
+MPICH = /usr/lib64/openmpi/1.4-gcc
+CFLAGS = -I$(MPICH)/include
+
+all: diss tourn openmp_mpi tree_final barrier_sense
+
+diss: diss.o
+	$(MPICC) -o $@ $(LDFLAGS) $^ $(LDLIBS)
+
+tourn: tourn.o
+	$(MPICC) -o $@ $(LDFLAGS) $^ $(LDLIBS)
+
+openmp_mpi: openmp_mpi.o
+	$(MPICC) -o $@ $(LDFLAGS) $^ $(LDLIBS) $(OMPLIBS)
+
+openmp_mpi.o: openmp_mpi.c
+	$(CC) -c -o $@ $(CPPFLAGS) $(CFLAGS) $(OMPFLAGS) $^
+
+tree_final: tree_final.o
+	$(CC) -c -o $@ $(CPPFLAGS) $(CFLAGS) $(OMPFLAGS) $^
+
+barrier_sense: barrier_sense.o
+	$(CC) -c -o $@ $(CPPFLAGS) $(CFLAGS) $(OMPFLAGS) $^
+clean:
+	rm -f *.o hello_world tourn openmp_mpi

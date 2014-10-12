@@ -1,0 +1,191 @@
+
+	Timer initialized 
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 0 with user_context 144125976
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 1 with user_context 144134176
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 2 with user_context 144142376
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 3 with user_context 144150576
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 4 with user_context 144158776
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 5 with user_context 144166976
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 6 with user_context 144175176
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 7 with user_context 144183376
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 8 with user_context 144191576
+
+MAKE THREAD user_context:
+	 Allocating stack for thread 9 with user_context 144199776
+Joined Thread[0] ID[1804289383] SCHEDULER
+	Current thread -1
+	Current thread after mod 0
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 0
+THREADCTRL
+	activeThreadCount 10
+Hello from 0 thread
+0 Has acquired mutex
+Thread[0] Done
+SCHEDULER
+	Current thread 0
+	Current thread after mod 1
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 1
+THREADCTRL
+	activeThreadCount 10
+Hello from 1 thread
+1 Has acquired mutex
+Thread[1] Done
+SCHEDULER
+	Current thread 1
+	Current thread after mod 2
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 2
+THREADCTRL
+	activeThreadCount 10
+Hello from 2 thread
+2 Has acquired mutex
+Thread[2] Done
+SCHEDULER
+	Current thread 2
+	Current thread after mod 3
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 3
+THREADCTRL
+	activeThreadCount 10
+Hello from 3 thread
+3 Has acquired mutex
+Thread[3] Done
+SCHEDULER
+	Current thread 3
+	Current thread after mod 4
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 4
+THREADCTRL
+	activeThreadCount 10
+Hello from 4 thread
+4 Has acquired mutex
+Thread[4] Done
+SCHEDULER
+	Current thread 4
+	Current thread after mod 5
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 5
+THREADCTRL
+	activeThreadCount 10
+Hello from 5 thread
+5 Has acquired mutex
+Thread[5] Done
+SCHEDULER
+	Current thread 5
+	Current thread after mod 6
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 6
+THREADCTRL
+	activeThreadCount 10
+Hello from 6 thread
+6 Has acquired mutex
+Thread[6] Done
+SCHEDULER
+	Current thread 6
+	Current thread after mod 7
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 7
+THREADCTRL
+	activeThreadCount 10
+Hello from 7 thread
+7 Has acquired mutex
+Thread[7] Done
+SCHEDULER
+	Current thread 7
+	Current thread after mod 8
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 8
+THREADCTRL
+	activeThreadCount 10
+Hello from 8 thread
+8 Has acquired mutex
+Thread[8] Done
+SCHEDULER
+	Current thread 8
+	Current thread after mod 9
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 9
+THREADCTRL
+	activeThreadCount 10
+Hello from 9 thread
+9 Has acquired mutex
+Thread[9] Done
+SCHEDULER
+	Current thread 9
+	Current thread after mod 0
+	allthreadsfinished 0
+	activeThreads 10
+	numthreadscreated 10
+	currentThread 0
+****Exiting thread[0]
+JOIN:
+	Thread 0 exited 1 finished 1
+Thread[0] has exited
+Joined Thread[1] ID[846930886] JOIN:
+	Thread 1 exited 1 finished 1
+Thread[1] has exited
+Joined Thread[2] ID[1681692777] JOIN:
+	Thread 2 exited 1 finished 1
+Thread[2] has exited
+Joined Thread[3] ID[1714636915] JOIN:
+	Thread 3 exited 1 finished 1
+Thread[3] has exited
+Joined Thread[4] ID[1957747793] JOIN:
+	Thread 4 exited 1 finished 1
+Thread[4] has exited
+Joined Thread[5] ID[424238335] JOIN:
+	Thread 5 exited 1 finished 1
+Thread[5] has exited
+Joined Thread[6] ID[719885386] JOIN:
+	Thread 6 exited 1 finished 1
+Thread[6] has exited
+Joined Thread[7] ID[1649760492] JOIN:
+	Thread 7 exited 1 finished 1
+Thread[7] has exited
+Joined Thread[8] ID[596516649] JOIN:
+	Thread 8 exited 1 finished 1
+Thread[8] has exited
+Joined Thread[9] ID[1189641421] JOIN:
+	Thread 9 exited 1 finished 1
+Thread[9] has exited
+Main exit

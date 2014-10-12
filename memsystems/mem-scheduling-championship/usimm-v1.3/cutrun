@@ -1,0 +1,4 @@
+
+bin/usimm input/4channel.cfg input/cut_A input/cut_A input/cut_A input/cut_A > output/cutruns/mlp 0 &
+
+

@@ -1,0 +1,7 @@
+#for (( x=2; x<=16; x=x*x ))
+#do
+x=0
+	bin/usimm input/4channel.cfg input/trace_test > output/opencl $x &	
+	echo "done $x"
+#done
+

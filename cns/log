@@ -1,0 +1,3184 @@
+BASH=/bin/bash
+BASHOPTS=checkwinsize:cmdhist:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_COMPLETION_COMPAT_DIR=/etc/bash_completion.d
+BASH_LINENO=()
+BASH_REMATCH=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="2" [2]="45" [3]="1" [4]="release" [5]="i686-pc-linux-gnu")
+BASH_VERSION='4.2.45(1)-release'
+COLORTERM=gnome-terminal
+COLUMNS=80
+COMPIZ_BIN_PATH=/usr/bin/
+COMPIZ_CONFIG_PROFILE=ubuntu
+COMP_WORDBREAKS=$' \t\n"\'><=;|&(:'
+CUR_WIDTH=0
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-jFj0DCdDrN,guid=ef32d042189a9df33a036831530d3528
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DESKTOP_SESSION=ubuntu
+DIRSTACK=()
+DISPLAY=:0
+EUID=1000
+GDMSESSION=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_KEYRING_CONTROL=/run/user/r11/keyring-xdJPv2
+GPG_AGENT_INFO=/run/user/r11/keyring-xdJPv2/gpg:0:1
+GROUPS=()
+GTK_MODULES=overlay-scrollbar
+HISTCONTROL=ignoreboth
+HISTFILE=/home/r11/.bash_history
+HISTFILESIZE=2000
+HISTSIZE=1000
+HOME=/home/r11
+HOSTNAME=rl1
+HOSTTYPE=i686
+IFS=$' \t\n'
+INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH=10
+INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS=false
+INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT=100
+INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH=25
+INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE=0
+INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE=0
+INFINALITY_FT_BRIGHTNESS=0
+INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH=0
+INFINALITY_FT_CONTRAST=0
+INFINALITY_FT_FILTER_PARAMS='06 25 44 25 06'
+INFINALITY_FT_FRINGE_FILTER_STRENGTH=0
+INFINALITY_FT_GAMMA_CORRECTION='0 100'
+INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE=0
+INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE=0
+INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH=0
+INFINALITY_FT_STEM_ALIGNMENT_STRENGTH=0
+INFINALITY_FT_STEM_FITTING_STRENGTH=0
+INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE=0
+INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS=false
+INFINALITY_FT_USE_VARIOUS_TWEAKS=true
+INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH=0
+LANG=en_US.UTF-8
+LD_LIBRARY_PATH=:/home/coursework/wireless/ns-allinone-2.34/otcl-1.13:/home/coursework/wireless/ns-allinone-2.34/lib:/usr/X11R6/lib:/usr/local/lib
+LESSCLOSE='/usr/bin/lesspipe %s %s'
+LESSOPEN='| /usr/bin/lesspipe %s'
+LINES=24
+LOGNAME=r11
+LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
+MACHTYPE=i686-pc-linux-gnu
+MAILCHECK=60
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+NAM=/home/coursework/wireless/ns-allinone-2.34/nam-1.14/
+NS=/home/coursework/wireless/ns-allinone-2.34/ns-2.34/
+NS2_LIB=/home/coursework/wireless/ns-allinone-2.34/lib
+OLDPWD=/home/r11/spring14/cns/gnupg-2.0.22
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+OTCL_LIB=/home/coursework/wireless/ns-allinone-2.34/otcl-1.13
+PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/coursework/wireless/ns-allinone-2.34/bin:/home/coursework/wireless/ns-allinone-2.34/tcl8.4.18/unix:/home/coursework/wireless/ns-allinone-2.34/tk8.4.18/unix:/home/coursework/wireless/ns-allinone-2.34/ns-2.34/:/home/coursework/wireless/ns-allinone-2.34/nam-1.14/
+PIPESTATUS=([0]="0")
+PPID=15467
+PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+PS2='> '
+PS4='+ '
+PWD=/home/r11/spring14/cns
+SESSION_MANAGER=local/rl1:@/tmp/.ICE-unix/1780,unix/rl1:/tmp/.ICE-unix/1780
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor
+SHLVL=1
+SSH_AGENT_PID=1855
+SSH_AUTH_SOCK=/run/user/r11/keyring-xdJPv2/ssh
+TCL_LIB=/home/coursework/wireless/ns-allinone-2.34/tcl8.4.18/library
+TCL_LIBRARY=/home/coursework/wireless/ns-allinone-2.34/tcl8.4.18/library:/usr/lib
+TERM=xterm
+TEXTDOMAIN=im-config
+TEXTDOMAINDIR=/usr/share/locale/
+UBUNTU_MENUPROXY=libappmenu.so
+UID=1000
+USER=r11
+USR_LIB=/usr/lib
+USR_LOCAL_LIB=/usr/local/lib
+WINDOWID=81790355
+X11_LIB=/usr/X11R6/lib
+XAUTHORITY=/home/r11/.Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XDG_CURRENT_DESKTOP=Unity
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+XDG_RUNTIME_DIR=/run/user/r11
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_COOKIE=3fc84a2fcd7a72d8878012015234ae41-1393374503.873499-1509830833
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XGRAPH=/home/coursework/wireless/ns-allinone-2.34/bin:/home/coursework/wireless/ns-allinone-2.34/tcl8.4.18/unix:/home/coursework/wireless/ns-allinone-2.34/tk8.4.18/unix
+_=set
+__colormgr_commandlist=$'\n    create-device\n    create-profile\n    delete-device\n    delete-profile\n    device-add-profile\n    device-get-default-profile\n    device-get-profile-for-qualifier\n    device-inhibit\n    device-make-profile-default\n    device-set-kind\n    device-set-model\n    device-set-serial\n    device-set-vendor\n    device-set-enabled\n    find-device\n    find-device-by-property\n    find-profile\n    find-profile-by-filename\n    get-devices\n    get-devices-by-kind\n    get-profiles\n    get-sensor-reading\n    get-sensors\n    get-standard-space\n    profile-set-filename\n    profile-set-qualifier\n    sensor-lock\n    sensor-set-options\n    '
+__grub_script_check_program=grub-script-check
+_backup_glob='@(#*#|*@(~|.@(bak|orig|rej|swp|dpkg*|rpm@(orig|new|save))))'
+_scp_path_esc='[][(){}<>",:;^&!$=?`|\\'\''[:space:]]'
+_xspecs=([freeamp]="!*.@(mp3|og[ag]|pls|m3u)" [cdiff]="!*.@(dif?(f)|?(d)patch)?(.@([gx]z|bz2|lzma))" [bibtex]="!*.aux" [rgview]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [oowriter]="!*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm)" [chromium-browser]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [tex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [netscape]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [acroread]="!*.[pf]df" [makeinfo]="!*.texi*" [kwrite]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [gview]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [qiv]="!*.@(gif|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|svg)" [lrunzip]="!*.lrz" [bzcat]="!*.?(t)bz?(2)" [amaya]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [pdftex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [hbpp]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [rpm2cpio]="!*.[rs]pm" [view]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [unxz]="!*.@(?(t)xz|tlz|lzma)" [ly2dvi]="!*.ly" [mozilla]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [opera]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [modplugplay]="!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|okta|p[st]m|s[3t]m|ult|umx|wav|xm)" [lzgrep]="!*.@(tlz|lzma)" [dillo]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [aaxine]="!*@(.@(mp?(e)g|MP?(E)G|wma|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|wmv|mp[234]|MP[234]|m4[pv]|M4[PV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.part)" [dvipdfmx]="!*.dvi" [advi]="!*.dvi" [ggv]="!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [lzmore]="!*.@(tlz|lzma)" [lzless]="!*.@(tlz|lzma)" [kdvi]="!*.@(dvi|DVI)?(.@(gz|Z|bz2))" [poedit]="!*.po" [firefox]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [gv]="!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [madplay]="!*.mp3" [lbzcat]="!*.?(t)bz?(2)" [lilypond]="!*.ly" [gtranslator]="!*.po" [jadetex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [sxemacs]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [epdfview]="!*.pdf" [gpdf]="!*.[pf]df" [kghostview]="!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [pbzcat]="!*.?(t)bz?(2)" [texi2dvi]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [ps2pdf12]="!*.@(?(e)ps|pdf)" [ee]="!*.@(gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx)" [lzcat]="!*.@(tlz|lzma)" [lbunzip2]="!*.?(t)bz?(2)" [ps2pdf13]="!*.@(?(e)ps|pdf)" [vim]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [ps2pdf14]="!*.@(?(e)ps|pdf)" [dvips]="!*.dvi" [lzfgrep]="!*.@(tlz|lzma)" [hbrun]="!*.[Hh][Rr][Bb]" [kbabel]="!*.po" [rview]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [kaffeine]="!*@(.@(mp?(e)g|MP?(E)G|wma|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|wmv|mp[234]|MP[234]|m4[pv]|M4[PV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.part)" [xv]="!*.@(gif|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|?(e)ps)" [rgvim]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [dvitype]="!*.dvi" [oodraw]="!*.@(sxd|std|sda|sdd|?(f)odg|otg)" [elinks]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [playmidi]="!*.@(mid?(i)|cmf)" [realplay]="!*.@(rm?(j)|ra?(m)|smi?(l))" [xine]="!*@(.@(mp?(e)g|MP?(E)G|wma|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|wmv|mp[234]|MP[234]|m4[pv]|M4[PV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.part)" [xpdf]="!*.[pf]df" [gqmpeg]="!*.@(mp3|og[ag]|pls|m3u)" [lzegrep]="!*.@(tlz|lzma)" [aviplay]="!*.@(avi|asf|wmv)" [latex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [rvim]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [bunzip2]="!*.?(t)bz?(2)" [ogg123]="!*.@(og[ag]|m3u|flac|spx)" [ps2pdfwr]="!*.@(?(e)ps|pdf)" [znew]="*.Z" [harbour]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [lokalize]="!*.po" [kate]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [xemacs]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [dragon]="!*@(.@(mp?(e)g|MP?(E)G|wma|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|wmv|mp[234]|MP[234]|m4[pv]|M4[PV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.part)" [unlzma]="!*.@(tlz|lzma)" [pdflatex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [vi]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [mozilla-firefox]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [ooimpress]="!*.@(sxi|sti|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)" [gvim]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [uncompress]="!*.Z" [kid3-qt]="!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)" [xanim]="!*.@(mpg|mpeg|avi|mov|qt)" [unpigz]="!*.@(Z|[gGd]z|t[ag]z)" [portecle]="!@(*.@(ks|jks|jceks|p12|pfx|bks|ubr|gkr|cer|crt|cert|p7b|pkipath|pem|p10|csr|crl)|cacerts)" [oocalc]="!*.@(sxc|stc|xls?([bmx])|xlw|xlt?([mx])|[ct]sv|?(f)ods|ots)" [emacs]="*.@(o|so|so.!(conf|*/*)|a|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [fbxine]="!*@(.@(mp?(e)g|MP?(E)G|wma|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|wmv|mp[234]|MP[234]|m4[pv]|M4[PV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.part)" [lynx]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [ps2pdf]="!*.@(?(e)ps|pdf)" [kpdf]="!*.@(?(e)ps|pdf)" [oomath]="!*.@(sxm|smf|mml|odf)" [compress]="*.Z" [iceweasel]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [mpg321]="!*.mp3" [mpg123]="!*.mp3" [zcat]="!*.@(Z|[gGd]z|t[ag]z)" [unzip]="!*.@(zip|[ejsw]ar|exe|pk3|wsz|zargo|xpi|sxw|o[tx]t|od[fgpst]|epub|apk)" [pbunzip2]="!*.?(t)bz?(2)" [kid3]="!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)" [pdfjadetex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [dvipdf]="!*.dvi" [gharbour]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [modplug123]="!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|okta|p[st]m|s[3t]m|ult|umx|wav|xm)" [dvipdfm]="!*.dvi" [oobase]="!*.odb" [texi2html]="!*.texi*" [zipinfo]="!*.@(zip|[ejsw]ar|exe|pk3|wsz|zargo|xpi|sxw|o[tx]t|od[fgpst]|epub|apk)" [epiphany]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [gunzip]="!*.@(Z|[gGd]z|t[ag]z)" [google-chrome]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [okular]="!*.@(okular|@(?(e|x)ps|?(E|X)PS|[pf]df|[PF]DF|dvi|DVI|cb[rz]|CB[RZ]|djv?(u)|DJV?(U)|dvi|DVI|gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx|GIF|JP?(E)G|MIFF|TIF?(F)|PN[GM]|P[BGP]M|BMP|XPM|ICO|XWD|TGA|PCX|epub|EPUB|odt|ODT|fb?(2)|FB?(2)|mobi|MOBI|g3|G3|chm|CHM)?(.?(gz|GZ|bz2|BZ2)))" [slitex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [galeon]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [bzme]="!*.@(zip|z|gz|tgz)" [xfig]="!*.fig" [xzcat]="!*.@(?(t)xz|tlz|lzma)" [timidity]="!*.@(mid?(i)|rmi|rcp|[gr]36|g18|mod|xm|it|x3m|s[3t]m|kar)" [dviselect]="!*.dvi" [xdvi]="!*.@(dvi|DVI)?(.@(gz|Z|bz2))" )
+__colormgrcomp () 
+{ 
+    local all c s='
+' IFS=' ''	''
+';
+    local cur="${COMP_WORDS[COMP_CWORD]}";
+    if [ $# -gt 2 ]; then
+        cur="$3";
+    fi;
+    for c in $1;
+    do
+        case "$c$4" in 
+            *.)
+                all="$all$c$4$s"
+            ;;
+            *)
+                all="$all$c$4 $s"
+            ;;
+        esac;
+    done;
+    IFS=$s;
+    COMPREPLY=($(compgen -P "$2" -W "$all" -- "$cur"));
+    return
+}
+__expand_tilde_by_ref () 
+{ 
+    if [[ ${!1} == \~* ]]; then
+        if [[ ${!1} == */* ]]; then
+            eval $1="${!1/%\/*}"/'${!1#*/}';
+        else
+            eval $1="${!1}";
+        fi;
+    fi
+}
+__get_cword_at_cursor_by_ref () 
+{ 
+    local cword words=();
+    __reassemble_comp_words_by_ref "$1" words cword;
+    local i cur index=$COMP_POINT lead=${COMP_LINE:0:$COMP_POINT};
+    if [[ $index -gt 0 && ( -n $lead && -n ${lead//[[:space:]]} ) ]]; then
+        cur=$COMP_LINE;
+        for ((i = 0; i <= cword; ++i ))
+        do
+            while [[ ${#cur} -ge ${#words[i]} && "${cur:0:${#words[i]}}" != "${words[i]}" ]]; do
+                cur="${cur:1}";
+                ((index--));
+            done;
+            if [[ $i -lt $cword ]]; then
+                local old_size=${#cur};
+                cur="${cur#"${words[i]}"}";
+                local new_size=${#cur};
+                index=$(( index - old_size + new_size ));
+            fi;
+        done;
+        [[ -n $cur && ! -n ${cur//[[:space:]]} ]] && cur=;
+        [[ $index -lt 0 ]] && index=0;
+    fi;
+    local "$2" "$3" "$4" && _upvars -a${#words[@]} $2 "${words[@]}" -v $3 "$cword" -v $4 "${cur:0:$index}"
+}
+__git_ps1 () 
+{ 
+    local pcmode=no;
+    local detached=no;
+    local ps1pc_start='\u@\h:\w ';
+    local ps1pc_end='\$ ';
+    local printf_format=' (%s)';
+    case "$#" in 
+        2 | 3)
+            pcmode=yes;
+            ps1pc_start="$1";
+            ps1pc_end="$2";
+            printf_format="${3:-$printf_format}"
+        ;;
+        0 | 1)
+            printf_format="${1:-$printf_format}"
+        ;;
+        *)
+            return
+        ;;
+    esac;
+    local g="$(__gitdir)";
+    if [ -z "$g" ]; then
+        if [ $pcmode = yes ]; then
+            PS1="$ps1pc_start$ps1pc_end";
+        fi;
+    else
+        local r="";
+        local b="";
+        if [ -f "$g/rebase-merge/interactive" ]; then
+            r="|REBASE-i";
+            b="$(cat "$g/rebase-merge/head-name")";
+        else
+            if [ -d "$g/rebase-merge" ]; then
+                r="|REBASE-m";
+                b="$(cat "$g/rebase-merge/head-name")";
+            else
+                if [ -d "$g/rebase-apply" ]; then
+                    if [ -f "$g/rebase-apply/rebasing" ]; then
+                        r="|REBASE";
+                    else
+                        if [ -f "$g/rebase-apply/applying" ]; then
+                            r="|AM";
+                        else
+                            r="|AM/REBASE";
+                        fi;
+                    fi;
+                else
+                    if [ -f "$g/MERGE_HEAD" ]; then
+                        r="|MERGING";
+                    else
+                        if [ -f "$g/CHERRY_PICK_HEAD" ]; then
+                            r="|CHERRY-PICKING";
+                        else
+                            if [ -f "$g/BISECT_LOG" ]; then
+                                r="|BISECTING";
+                            fi;
+                        fi;
+                    fi;
+                fi;
+                b="$(git symbolic-ref HEAD 2>/dev/null)" || { 
+                    detached=yes;
+                    b="$(
+				case "${GIT_PS1_DESCRIBE_STYLE-}" in
+				(contains)
+					git describe --contains HEAD ;;
+				(branch)
+					git describe --contains --all HEAD ;;
+				(describe)
+					git describe HEAD ;;
+				(* | default)
+					git describe --tags --exact-match HEAD ;;
+				esac 2>/dev/null)" || b="$(cut -c1-7 "$g/HEAD" 2>/dev/null)..." || b="unknown";
+                    b="($b)"
+                };
+            fi;
+        fi;
+        local w="";
+        local i="";
+        local s="";
+        local u="";
+        local c="";
+        local p="";
+        if [ "true" = "$(git rev-parse --is-inside-git-dir 2>/dev/null)" ]; then
+            if [ "true" = "$(git rev-parse --is-bare-repository 2>/dev/null)" ]; then
+                c="BARE:";
+            else
+                b="GIT_DIR!";
+            fi;
+        else
+            if [ "true" = "$(git rev-parse --is-inside-work-tree 2>/dev/null)" ]; then
+                if [ -n "${GIT_PS1_SHOWDIRTYSTATE-}" ]; then
+                    if [ "$(git config --bool bash.showDirtyState)" != "false" ]; then
+                        git diff --no-ext-diff --quiet --exit-code || w="*";
+                        if git rev-parse --quiet --verify HEAD > /dev/null; then
+                            git diff-index --cached --quiet HEAD -- || i="+";
+                        else
+                            i="#";
+                        fi;
+                    fi;
+                fi;
+                if [ -n "${GIT_PS1_SHOWSTASHSTATE-}" ]; then
+                    git rev-parse --verify refs/stash > /dev/null 2>&1 && s="$";
+                fi;
+                if [ -n "${GIT_PS1_SHOWUNTRACKEDFILES-}" ]; then
+                    if [ -n "$(git ls-files --others --exclude-standard)" ]; then
+                        u="%";
+                    fi;
+                fi;
+                if [ -n "${GIT_PS1_SHOWUPSTREAM-}" ]; then
+                    __git_ps1_show_upstream;
+                fi;
+            fi;
+        fi;
+        local f="$w$i$s$u";
+        if [ $pcmode = yes ]; then
+            local gitstring=;
+            if [ -n "${GIT_PS1_SHOWCOLORHINTS-}" ]; then
+                local c_red='\e[31m';
+                local c_green='\e[32m';
+                local c_lblue='\e[1;34m';
+                local c_clear='\e[0m';
+                local bad_color=$c_red;
+                local ok_color=$c_green;
+                local branch_color="$c_clear";
+                local flags_color="$c_lblue";
+                local branchstring="$c${b##refs/heads/}";
+                if [ $detached = no ]; then
+                    branch_color="$ok_color";
+                else
+                    branch_color="$bad_color";
+                fi;
+                gitstring="\[$branch_color\]$branchstring\[$c_clear\]";
+                if [ -n "$w$i$s$u$r$p" ]; then
+                    gitstring="$gitstring ";
+                fi;
+                if [ "$w" = "*" ]; then
+                    gitstring="$gitstring\[$bad_color\]$w";
+                fi;
+                if [ -n "$i" ]; then
+                    gitstring="$gitstring\[$ok_color\]$i";
+                fi;
+                if [ -n "$s" ]; then
+                    gitstring="$gitstring\[$flags_color\]$s";
+                fi;
+                if [ -n "$u" ]; then
+                    gitstring="$gitstring\[$bad_color\]$u";
+                fi;
+                gitstring="$gitstring\[$c_clear\]$r$p";
+            else
+                gitstring="$c${b##refs/heads/}${f:+ $f}$r$p";
+            fi;
+            gitstring=$(printf -- "$printf_format" "$gitstring");
+            PS1="$ps1pc_start$gitstring$ps1pc_end";
+        else
+            printf -- "$printf_format" "$c${b##refs/heads/}${f:+ $f}$r$p";
+        fi;
+    fi
+}
+__git_ps1_show_upstream () 
+{ 
+    local key value;
+    local svn_remote svn_url_pattern count n;
+    local upstream=git legacy="" verbose="";
+    svn_remote=();
+    local output="$(git config -z --get-regexp '^(svn-remote\..*\.url|bash\.showupstream)$' 2>/dev/null | tr '\0\n' '\n ')";
+    while read -r key value; do
+        case "$key" in 
+            bash.showupstream)
+                GIT_PS1_SHOWUPSTREAM="$value";
+                if [[ -z "${GIT_PS1_SHOWUPSTREAM}" ]]; then
+                    p="";
+                    return;
+                fi
+            ;;
+            svn-remote.*.url)
+                svn_remote[ $((${#svn_remote[@]} + 1)) ]="$value";
+                svn_url_pattern+="\\|$value";
+                upstream=svn+git
+            ;;
+        esac;
+    done <<< "$output";
+    for option in ${GIT_PS1_SHOWUPSTREAM};
+    do
+        case "$option" in 
+            git | svn)
+                upstream="$option"
+            ;;
+            verbose)
+                verbose=1
+            ;;
+            legacy)
+                legacy=1
+            ;;
+        esac;
+    done;
+    case "$upstream" in 
+        git)
+            upstream="@{upstream}"
+        ;;
+        svn*)
+            local svn_upstream=($(git log --first-parent -1 					--grep="^git-svn-id: \(${svn_url_pattern#??}\)" 2>/dev/null));
+            if [[ 0 -ne ${#svn_upstream[@]} ]]; then
+                svn_upstream=${svn_upstream[ ${#svn_upstream[@]} - 2 ]};
+                svn_upstream=${svn_upstream%@*};
+                local n_stop="${#svn_remote[@]}";
+                for ((n=1; n <= n_stop; n++))
+                do
+                    svn_upstream=${svn_upstream#${svn_remote[$n]}};
+                done;
+                if [[ -z "$svn_upstream" ]]; then
+                    upstream=${GIT_SVN_ID:-git-svn};
+                else
+                    upstream=${svn_upstream#/};
+                fi;
+            else
+                if [[ "svn+git" = "$upstream" ]]; then
+                    upstream="@{upstream}";
+                fi;
+            fi
+        ;;
+    esac;
+    if [[ -z "$legacy" ]]; then
+        count="$(git rev-list --count --left-right 				"$upstream"...HEAD 2>/dev/null)";
+    else
+        local commits;
+        if commits="$(git rev-list --left-right "$upstream"...HEAD 2>/dev/null)"; then
+            local commit behind=0 ahead=0;
+            for commit in $commits;
+            do
+                case "$commit" in 
+                    "<"*)
+                        ((behind++))
+                    ;;
+                    *)
+                        ((ahead++))
+                    ;;
+                esac;
+            done;
+            count="$behind	$ahead";
+        else
+            count="";
+        fi;
+    fi;
+    if [[ -z "$verbose" ]]; then
+        case "$count" in 
+            "")
+                p=""
+            ;;
+            "0	0")
+                p="="
+            ;;
+            "0	"*)
+                p=">"
+            ;;
+            *"	0")
+                p="<"
+            ;;
+            *)
+                p="<>"
+            ;;
+        esac;
+    else
+        case "$count" in 
+            "")
+                p=""
+            ;;
+            "0	0")
+                p=" u="
+            ;;
+            "0	"*)
+                p=" u+${count#0	}"
+            ;;
+            *"	0")
+                p=" u-${count%	0}"
+            ;;
+            *)
+                p=" u+${count#*	}-${count%	*}"
+            ;;
+        esac;
+    fi
+}
+__gitdir () 
+{ 
+    if [ -z "${1-}" ]; then
+        if [ -n "${__git_dir-}" ]; then
+            echo "$__git_dir";
+        else
+            if [ -n "${GIT_DIR-}" ]; then
+                test -d "${GIT_DIR-}" || return 1;
+                echo "$GIT_DIR";
+            else
+                if [ -d .git ]; then
+                    echo .git;
+                else
+                    git rev-parse --git-dir 2> /dev/null;
+                fi;
+            fi;
+        fi;
+    else
+        if [ -d "$1/.git" ]; then
+            echo "$1/.git";
+        else
+            echo "$1";
+        fi;
+    fi
+}
+__grub_dir () 
+{ 
+    local i c=1 boot_dir;
+    for ((c=1; c <= ${#COMP_WORDS[@]}; c++ ))
+    do
+        i="${COMP_WORDS[c]}";
+        case "$i" in 
+            --boot-directory)
+                c=$((++c));
+                i="${COMP_WORDS[c]}";
+                boot_dir="${i##*=}";
+                break
+            ;;
+        esac;
+    done;
+    boot_dir=${boot_dir-/boot};
+    echo "${boot_dir%/}/grub"
+}
+__grub_get_last_option () 
+{ 
+    local i;
+    for ((i=$COMP_CWORD-1; i > 0; i-- ))
+    do
+        if [[ "${COMP_WORDS[i]}" == -* ]]; then
+            echo "${COMP_WORDS[i]}";
+            break;
+        fi;
+    done
+}
+__grub_get_options_from_help () 
+{ 
+    local prog;
+    if [ $# -ge 1 ]; then
+        prog="$1";
+    else
+        prog="${COMP_WORDS[0]}";
+    fi;
+    local i IFS=" "'	''
+';
+    for i in $(LC_ALL=C $prog --help);
+    do
+        case $i in 
+            --*)
+                echo "${i%=*}"
+            ;;
+        esac;
+    done
+}
+__grub_get_options_from_usage () 
+{ 
+    local prog;
+    if [ $# -ge 1 ]; then
+        prog="$1";
+    else
+        prog="${COMP_WORDS[0]}";
+    fi;
+    local i IFS=" "'	''
+';
+    for i in $(LC_ALL=C $prog --usage);
+    do
+        case $i in 
+            \[--*\])
+                i=${i#[};
+                echo ${i%%?(=*)]}
+            ;;
+        esac;
+    done
+}
+__grub_list_menuentries () 
+{ 
+    local cur="${COMP_WORDS[COMP_CWORD]}";
+    local config_file=$(__grub_dir)/grub.cfg;
+    if [ -f "$config_file" ]; then
+        local IFS='
+';
+        COMPREPLY=($(compgen             -W "$( awk -F "[\"']" '/menuentry/ { print $2 }' $config_file )"             -- "$cur" ));
+    fi
+}
+__grub_list_modules () 
+{ 
+    local grub_dir=$(__grub_dir);
+    local IFS='
+';
+    COMPREPLY=($( compgen -f -X '!*/*.mod' -- "${grub_dir}/$cur" | {
+         while read -r tmp; do
+             [ -n $tmp ] && {
+                 tmp=${tmp##*/}
+                 printf '%s\n' ${tmp%.mod}
+             }
+         done
+         }
+        ))
+}
+__grubcomp () 
+{ 
+    local cur="${COMP_WORDS[COMP_CWORD]}";
+    if [ $# -gt 2 ]; then
+        cur="$3";
+    fi;
+    case "$cur" in 
+        --*=)
+            COMPREPLY=()
+        ;;
+        *)
+            local IFS=' ''	''
+';
+            COMPREPLY=($(compgen -P "${2-}" -W "${1-}" -S "${4-}" -- "$cur"))
+        ;;
+    esac
+}
+__ltrim_colon_completions () 
+{ 
+    if [[ "$1" == *:* && "$COMP_WORDBREAKS" == *:* ]]; then
+        local colon_word=${1%${1##*:}};
+        local i=${#COMPREPLY[*]};
+        while [[ $((--i)) -ge 0 ]]; do
+            COMPREPLY[$i]=${COMPREPLY[$i]#"$colon_word"};
+        done;
+    fi
+}
+__parse_options () 
+{ 
+    local option option2 i IFS=' 	
+,/|';
+    option=;
+    for i in $1;
+    do
+        case $i in 
+            ---*)
+                break
+            ;;
+            --?*)
+                option=$i;
+                break
+            ;;
+            -?*)
+                [[ -n $option ]] || option=$i
+            ;;
+            *)
+                break
+            ;;
+        esac;
+    done;
+    [[ -n $option ]] || return 0;
+    IFS=' 	
+';
+    if [[ $option =~ (\[((no|dont)-?)\]). ]]; then
+        option2=${option/"${BASH_REMATCH[1]}"/};
+        option2=${option2%%[<{().[]*};
+        printf '%s\n' "${option2/=*/=}";
+        option=${option/"${BASH_REMATCH[1]}"/"${BASH_REMATCH[2]}"};
+    fi;
+    option=${option%%[<{().[]*};
+    printf '%s\n' "${option/=*/=}"
+}
+__reassemble_comp_words_by_ref () 
+{ 
+    local exclude i j line ref;
+    if [[ -n $1 ]]; then
+        exclude="${1//[^$COMP_WORDBREAKS]}";
+    fi;
+    eval $3=$COMP_CWORD;
+    if [[ -n $exclude ]]; then
+        line=$COMP_LINE;
+        for ((i=0, j=0; i < ${#COMP_WORDS[@]}; i++, j++))
+        do
+            while [[ $i -gt 0 && ${COMP_WORDS[$i]} == +([$exclude]) ]]; do
+                [[ $line != [' 	']* ]] && (( j >= 2 )) && ((j--));
+                ref="$2[$j]";
+                eval $2[$j]=\${!ref}\${COMP_WORDS[i]};
+                [[ $i == $COMP_CWORD ]] && eval $3=$j;
+                line=${line#*"${COMP_WORDS[$i]}"};
+                [[ $line == [' 	']* ]] && ((j++));
+                (( $i < ${#COMP_WORDS[@]} - 1)) && ((i++)) || break 2;
+            done;
+            ref="$2[$j]";
+            eval $2[$j]=\${!ref}\${COMP_WORDS[i]};
+            line=${line#*"${COMP_WORDS[i]}"};
+            [[ $i == $COMP_CWORD ]] && eval $3=$j;
+        done;
+    else
+        eval $2=\( \"\${COMP_WORDS[@]}\" \);
+    fi
+}
+_allowed_groups () 
+{ 
+    if _complete_as_root; then
+        local IFS='
+';
+        COMPREPLY=($( compgen -g -- "$1" ));
+    else
+        local IFS='
+ ';
+        COMPREPLY=($( compgen -W             "$( id -Gn 2>/dev/null || groups 2>/dev/null )" -- "$1" ));
+    fi
+}
+_allowed_users () 
+{ 
+    if _complete_as_root; then
+        local IFS='
+';
+        COMPREPLY=($( compgen -u -- "${1:-$cur}" ));
+    else
+        local IFS='
+ ';
+        COMPREPLY=($( compgen -W             "$( id -un 2>/dev/null || whoami 2>/dev/null )" -- "${1:-$cur}" ));
+    fi
+}
+_apport-bug () 
+{ 
+    local cur dashoptions prev param;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    dashoptions='-h --help --save -v --version --tag -w --window';
+    case "$prev" in 
+        ubuntu-bug | apport-bug)
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+        --save)
+            COMPREPLY=($( compgen -o default -G "$cur*" ))
+        ;;
+        -w | --window)
+            dashoptions="--save --tag";
+            COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+        ;;
+        -h | --help | -v | --version | --tag)
+            return 0
+        ;;
+        *)
+            dashoptions="--tag";
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--save.* ]]; then
+                dashoptions="--save $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--window.* || "${COMP_WORDS[*]}" =~ .*\ -w\ .* ]]; then
+                dashoptions="-w --window $dashoptions";
+            fi;
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+    esac
+}
+_apport-cli () 
+{ 
+    local cur dashoptions prev param;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    dashoptions='-h --help -f --file-bug -u --update-bug -s --symptom \
+                 -c --crash-file --save -v --version --tag -w --window';
+    case "$prev" in 
+        apport-cli)
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+        -f | --file-bug)
+            param="-P --pid -p --package -s --symptom";
+            COMPREPLY=($( compgen -W "$param $(_apport_symptoms)" -- $cur))
+        ;;
+        -s | --symptom)
+            COMPREPLY=($( compgen -W "$(_apport_symptoms)" -- $cur))
+        ;;
+        --save)
+            COMPREPLY=($( compgen -o default -G "$cur*" ))
+        ;;
+        -c | --crash-file)
+            COMPREPLY=($( compgen -G "${cur}*.apport"
+                       compgen -G "${cur}*.crash" ))
+        ;;
+        -w | --window)
+            dashoptions="--save --tag";
+            COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+        ;;
+        -h | --help | -v | --version | --tag)
+            return 0
+        ;;
+        *)
+            dashoptions='--tag';
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--save.* ]]; then
+                dashoptions="--save $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--window.* || "${COMP_WORDS[*]}" =~ .*\ -w\ .* ]]; then
+                dashoptions="-w --window $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--symptom.* || "${COMP_WORDS[*]}" =~ .*\ -s\ .* ]]; then
+                dashoptions="-s --symptom $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--update.* || "${COMP_WORDS[*]}" =~ .*\ -u\ .* ]]; then
+                dashoptions="-u --update $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--file-bug.* || "${COMP_WORDS[*]}" =~ .*\ -f\ .* ]]; then
+                dashoptions="-f --file-bug $dashoptions";
+            fi;
+            if ! [[ "${COMP_WORDS[*]}" =~ .*--crash-file.* || "${COMP_WORDS[*]}" =~ .*\ -c\ .* ]]; then
+                dashoptions="-c --crash-file $dashoptions";
+            fi;
+            case "$cur" in 
+                -*)
+                    COMPREPLY=($( compgen -W "$dashoptions" -- $cur ))
+                ;;
+                *)
+                    _apport_parameterless
+                ;;
+            esac
+        ;;
+    esac
+}
+_apport-collect () 
+{ 
+    local cur prev;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    case "$prev" in 
+        apport-collect)
+            COMPREPLY=($( compgen -W "-p --package --tag" -- $cur))
+        ;;
+        -p | --package)
+            COMPREPLY=($( apt-cache pkgnames $cur 2> /dev/null ))
+        ;;
+        --tag)
+            return 0
+        ;;
+        *)
+            if [[ "${COMP_WORDS[*]}" =~ .*\ -p.* || "${COMP_WORDS[*]}" =~ .*--package.* ]]; then
+                COMPREPLY=($( compgen -W "--tag" -- $cur));
+            else
+                COMPREPLY=($( compgen -W "-p --package --tag" -- $cur));
+            fi
+        ;;
+    esac
+}
+_apport-unpack () 
+{ 
+    local cur prev;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    case "$prev" in 
+        apport-unpack)
+            COMPREPLY=($( compgen -G "${cur}*.apport"
+                       compgen -G "${cur}*.crash" ))
+        ;;
+    esac
+}
+_apport_parameterless () 
+{ 
+    local param;
+    param="$dashoptions            $( apt-cache pkgnames $cur 2> /dev/null )            $( command ps axo pid | sed 1d )            $( _apport_symptoms )            $( compgen -G "${cur}*" )";
+    COMPREPLY=($( compgen -W "$param" -- $cur))
+}
+_apport_symptoms () 
+{ 
+    local syms;
+    if [ -r /usr/share/apport/symptoms ]; then
+        for FILE in $(ls /usr/share/apport/symptoms);
+        do
+            if [[ ! "$FILE" =~ ^_.* && -n $(egrep "^def run\s*\(.*\):" /usr/share/apport/symptoms/$FILE) ]]; then
+                syms="$syms ${FILE%.py}";
+            fi;
+        done;
+    fi;
+    echo $syms
+}
+_available_interfaces () 
+{ 
+    local cmd;
+    if [[ ${1:-} == -w ]]; then
+        cmd="iwconfig";
+    else
+        if [[ ${1:-} == -a ]]; then
+            cmd="ifconfig";
+        else
+            cmd="ifconfig -a";
+        fi;
+    fi;
+    COMPREPLY=($( eval PATH="$PATH:/sbin" $cmd 2>/dev/null |         awk '/^[^ \t]/ { print $1 }' ));
+    COMPREPLY=($( compgen -W '${COMPREPLY[@]/%[[:punct:]]/}' -- "$cur" ))
+}
+_axi_cache () 
+{ 
+    local cur prev cmd;
+    COMPREPLY=();
+    COMP_WORDBREAKS=${COMP_WORDBREAKS//:};
+    type _get_comp_words_by_ref &>/dev/null && { 
+        _get_comp_words_by_ref -n: cur prev
+    } || { 
+        cur=$(_get_cword ":");
+        prev=${COMP_WORDS[$COMP_CWORD-1]}
+    };
+    cmd=${COMP_WORDS[1]};
+    case "$prev" in 
+        *axi-cache*)
+            COMPREPLY=($(compgen -W "help more search show again showpkg showsrc depends rdepends policy madison" -- "$cur"));
+            return 0
+        ;;
+        --sort)
+            COMPREPLY=($(compgen -W "$(egrep ^[a-z] /var/lib/apt-xapian-index/values | awk -F"\t" '{print $1}')" -- "$cur"));
+            return 0
+        ;;
+    esac;
+    case "$cmd" in 
+        search | again)
+            if [[ "$cur" == -* ]]; then
+                COMPREPLY=($(compgen -W "--sort --tags" -- "$cur"));
+                return 0;
+            fi
+        ;;
+        show | showpkg | showsrc | depends | rdepends | policy | madison)
+            if [[ "$cur" == -* ]]; then
+                COMPREPLY=($(compgen -W "--last" -- "$cur"));
+                return 0;
+            fi
+        ;;
+        *)
+            return 0
+        ;;
+    esac;
+    if [ -n "$cur" ]; then
+        COMPREPLY=($(compgen -W "$(${COMP_WORDS[@]} --tabcomplete=partial)" -- "$cur"));
+    else
+        COMPREPLY=($(compgen -W "$(${COMP_WORDS[@]} --tabcomplete=plain)" -- "$cur"));
+    fi;
+    return 0
+}
+_cd () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    local IFS='
+' i j k;
+    compopt -o filenames;
+    if [[ -z "${CDPATH:-}" || "$cur" == ?(.)?(.)/* ]]; then
+        _filedir -d;
+        return 0;
+    fi;
+    local -r mark_dirs=$(_rl_enabled mark-directories && echo y);
+    local -r mark_symdirs=$(_rl_enabled mark-symlinked-directories && echo y);
+    for i in ${CDPATH//:/'
+'};
+    do
+        k="${#COMPREPLY[@]}";
+        for j in $( compgen -d $i/$cur );
+        do
+            if [[ ( -n $mark_symdirs && -h $j || -n $mark_dirs && ! -h $j ) && ! -d ${j#$i/} ]]; then
+                j+="/";
+            fi;
+            COMPREPLY[k++]=${j#$i/};
+        done;
+    done;
+    _filedir -d;
+    if [[ ${#COMPREPLY[@]} -eq 1 ]]; then
+        i=${COMPREPLY[0]};
+        if [[ "$i" == "$cur" && $i != "*/" ]]; then
+            COMPREPLY[0]="${i}/";
+        fi;
+    fi;
+    return 0
+}
+_cd_devices () 
+{ 
+    COMPREPLY+=($( compgen -f -d -X "!*/?([amrs])cd*" -- "${cur:-/dev/}" ))
+}
+_colormgr () 
+{ 
+    local i c=1 command;
+    while [ $c -lt $COMP_CWORD ]; do
+        i="${COMP_WORDS[c]}";
+        case "$i" in 
+            --help | --verbose | -v | -h | -?)
+
+            ;;
+            *)
+                command="$i";
+                break
+            ;;
+        esac;
+        c=$((++c));
+    done;
+    if [ $c -eq $COMP_CWORD -a -z "$command" ]; then
+        case "${COMP_WORDS[COMP_CWORD]}" in 
+            --*=*)
+                COMPREPLY=()
+            ;;
+            --*)
+                __colormgrcomp "
+			--verbose
+			--help
+			"
+            ;;
+            -*)
+                __colormgrcomp "
+            -v
+            -h
+            -?
+            "
+            ;;
+            *)
+                __colormgrcomp "$__colormgr_commandlist"
+            ;;
+        esac;
+        return;
+    fi;
+    case "$command" in 
+        *)
+            COMPREPLY=()
+        ;;
+    esac
+}
+_command () 
+{ 
+    local offset i;
+    offset=1;
+    for ((i=1; i <= COMP_CWORD; i++ ))
+    do
+        if [[ "${COMP_WORDS[i]}" != -* ]]; then
+            offset=$i;
+            break;
+        fi;
+    done;
+    _command_offset $offset
+}
+_command_offset () 
+{ 
+    local word_offset=$1 i j;
+    for ((i=0; i < $word_offset; i++ ))
+    do
+        for ((j=0; j <= ${#COMP_LINE}; j++ ))
+        do
+            [[ "$COMP_LINE" == "${COMP_WORDS[i]}"* ]] && break;
+            COMP_LINE=${COMP_LINE:1};
+            ((COMP_POINT--));
+        done;
+        COMP_LINE=${COMP_LINE#"${COMP_WORDS[i]}"};
+        ((COMP_POINT-=${#COMP_WORDS[i]}));
+    done;
+    for ((i=0; i <= COMP_CWORD - $word_offset; i++ ))
+    do
+        COMP_WORDS[i]=${COMP_WORDS[i+$word_offset]};
+    done;
+    for ((i; i <= COMP_CWORD; i++ ))
+    do
+        unset COMP_WORDS[i];
+    done;
+    ((COMP_CWORD -= $word_offset));
+    COMPREPLY=();
+    local cur;
+    _get_comp_words_by_ref cur;
+    if [[ $COMP_CWORD -eq 0 ]]; then
+        local IFS='
+';
+        compopt -o filenames;
+        COMPREPLY=($( compgen -d -c -- "$cur" ));
+    else
+        local cmd=${COMP_WORDS[0]} compcmd=${COMP_WORDS[0]};
+        local cspec=$( complete -p $cmd 2>/dev/null );
+        if [[ ! -n $cspec && $cmd == */* ]]; then
+            cspec=$( complete -p ${cmd##*/} 2>/dev/null );
+            [[ -n $cspec ]] && compcmd=${cmd##*/};
+        fi;
+        if [[ ! -n $cspec ]]; then
+            compcmd=${cmd##*/};
+            _completion_loader $compcmd;
+            cspec=$( complete -p $compcmd 2>/dev/null );
+        fi;
+        if [[ -n $cspec ]]; then
+            if [[ ${cspec#* -F } != $cspec ]]; then
+                local func=${cspec#*-F };
+                func=${func%% *};
+                if [[ ${#COMP_WORDS[@]} -ge 2 ]]; then
+                    $func $cmd "${COMP_WORDS[${#COMP_WORDS[@]}-1]}" "${COMP_WORDS[${#COMP_WORDS[@]}-2]}";
+                else
+                    $func $cmd "${COMP_WORDS[${#COMP_WORDS[@]}-1]}";
+                fi;
+                local opt t;
+                while true; do
+                    t=${cspec#*-o };
+                    if [[ $t == $cspec ]]; then
+                        break;
+                    fi;
+                    opt=${t%% *};
+                    compopt -o $opt;
+                    cspec=${t#$opt};
+                done;
+            else
+                cspec=${cspec#complete};
+                cspec=${cspec%%$compcmd};
+                COMPREPLY=($( eval compgen "$cspec" -- '$cur' ));
+            fi;
+        else
+            if [[ ${#COMPREPLY[@]} -eq 0 ]]; then
+                _minimal;
+            fi;
+        fi;
+    fi
+}
+_complete_as_root () 
+{ 
+    [[ $EUID -eq 0 || -n ${root_command:-} ]]
+}
+_completion_loader () 
+{ 
+    local compdir=./completions;
+    [[ $BASH_SOURCE == */* ]] && compdir="${BASH_SOURCE%/*}/completions";
+    . "$compdir/${1##*/}" &>/dev/null && return 124;
+    complete -F _minimal "$1" && return 124
+}
+_configured_interfaces () 
+{ 
+    if [[ -f /etc/debian_version ]]; then
+        COMPREPLY=($( compgen -W "$( sed -ne 's|^iface \([^ ]\{1,\}\).*$|\1|p'            /etc/network/interfaces )" -- "$cur" ));
+    else
+        if [[ -f /etc/SuSE-release ]]; then
+            COMPREPLY=($( compgen -W "$( printf '%s\n'             /etc/sysconfig/network/ifcfg-* |             sed -ne 's|.*ifcfg-\(.*\)|\1|p' )" -- "$cur" ));
+        else
+            if [[ -f /etc/pld-release ]]; then
+                COMPREPLY=($( compgen -W "$( command ls -B             /etc/sysconfig/interfaces |             sed -ne 's|.*ifcfg-\(.*\)|\1|p' )" -- "$cur" ));
+            else
+                COMPREPLY=($( compgen -W "$( printf '%s\n'             /etc/sysconfig/network-scripts/ifcfg-* |             sed -ne 's|.*ifcfg-\(.*\)|\1|p' )" -- "$cur" ));
+            fi;
+        fi;
+    fi
+}
+_count_args () 
+{ 
+    local i cword words;
+    __reassemble_comp_words_by_ref "$1" words cword;
+    args=1;
+    for i in "${words[@]:1:cword-1}";
+    do
+        [[ "$i" != -* ]] && args=$(($args+1));
+    done
+}
+_debconf_show () 
+{ 
+    local cur;
+    COMPREPLY=();
+    cur=${COMP_WORDS[COMP_CWORD]};
+    COMPREPLY=($( compgen -W '--listowners --listdbs --db=' -- $cur ) $( apt-cache pkgnames -- $cur ))
+}
+_desktop_file_validate () 
+{ 
+    COMPRELY=();
+    cur=${COMP_WORDS[COMP_CWORD]};
+    _filedir '@(desktop)'
+}
+_dkms () 
+{ 
+    local cur prev command module i;
+    COMPREPLY=();
+    cur=${COMP_WORDS[COMP_CWORD]};
+    if [[ $COMP_CWORD -eq 1 ]]; then
+        COMPREPLY=($( compgen -W "add autoinstall remove build install uninstall 			match mkdriverdisk mktarball ldtarball mkrpm mkdeb mkdsc mkkmp 			status" -- $cur ));
+    else
+        prev=${COMP_WORDS[COMP_CWORD-1]};
+        command=${COMP_WORDS[1]};
+        case $prev in 
+            -m)
+                if [ "$command" = 'add' ]; then
+                    _filename_parts '.*-.*' 1;
+                else
+                    _subdirectories /var/lib/dkms;
+                fi;
+                return 0
+            ;;
+            -v)
+                for ((i=1; i < COMP_CWORD; i++ ))
+                do
+                    if [[ "${COMP_WORDS[i]}" == -m ]]; then
+                        module=${COMP_WORDS[i+1]};
+                        break;
+                    fi;
+                done;
+                if [ -n "$module" ]; then
+                    if [ "$command" = 'add' ]; then
+                        _filename_parts "$module-.*" 2;
+                    else
+                        _subdirectories /var/lib/dkms/$module;
+                    fi;
+                    return 0;
+                fi
+            ;;
+            -k)
+                _kernels;
+                return 0
+            ;;
+            -@\(c | -spec | -archive | -config\))
+                _filedir;
+                return 0
+            ;;
+            --kernelsourcedir)
+                _filedir -d;
+                return 0
+            ;;
+        esac;
+        if [[ "$cur" == -* ]]; then
+            case $command in 
+                add)
+                    options='-c --rpm_safe_upgrade'
+                ;;
+                remove)
+                    options='--rpm_safe_upgrade'
+                ;;
+                build)
+                    options='--config'
+                ;;
+                mkdriverdisk)
+                    options='-d --distro -r --release --size'
+                ;;
+                ldtarball)
+                    options='--archive --force'
+                ;;
+                mktarball)
+                    options='--source-only --binaries-only'
+                ;;
+                mkrpm)
+                    options='--source-only'
+                ;;
+                mkkmp)
+                    options='--spec'
+                ;;
+                match)
+                    options='--templatekernel'
+                ;;
+            esac;
+            options="$options -m -v -k -a --arch -q --quiet -V 				--version --all --no-prepare-kernel 				--no-clean-kernel --kernelsourcedir 				--directive";
+            COMPREPLY=($( compgen -W "$options" -- $cur ));
+        fi;
+    fi
+}
+_dvd_devices () 
+{ 
+    COMPREPLY+=($( compgen -f -d -X "!*/?(r)dvd*" -- "${cur:-/dev/}" ))
+}
+_expand () 
+{ 
+    if [[ "$cur" == \~*/* ]]; then
+        eval cur=$cur 2> /dev/null;
+    else
+        if [[ "$cur" == \~* ]]; then
+            cur=${cur#\~};
+            COMPREPLY=($( compgen -P '~' -u "$cur" ));
+            [[ ${#COMPREPLY[@]} -eq 1 ]] && eval COMPREPLY[0]=${COMPREPLY[0]};
+            return ${#COMPREPLY[@]};
+        fi;
+    fi
+}
+_filedir () 
+{ 
+    local i IFS='
+' xspec;
+    _tilde "$cur" || return 0;
+    local -a toks;
+    local quoted x tmp;
+    _quote_readline_by_ref "$cur" quoted;
+    x=$( compgen -d -- "$quoted" ) && while read -r tmp; do
+        toks+=("$tmp");
+    done <<< "$x";
+    if [[ "$1" != -d ]]; then
+        xspec=${1:+"!*.@($1|${1^^})"};
+        x=$( compgen -f -X "$xspec" -- $quoted ) && while read -r tmp; do
+            toks+=("$tmp");
+        done <<< "$x";
+    fi;
+    [[ -n ${COMP_FILEDIR_FALLBACK:-} && -n "$1" && "$1" != -d && ${#toks[@]} -lt 1 ]] && x=$( compgen -f -- $quoted ) && while read -r tmp; do
+        toks+=("$tmp");
+    done <<< "$x";
+    if [[ ${#toks[@]} -ne 0 ]]; then
+        compopt -o filenames 2> /dev/null;
+        COMPREPLY+=("${toks[@]}");
+    fi
+}
+_filedir_xspec () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    _expand || return 0;
+    local IFS='
+' xspec=${_xspecs[${1##*/}]} tmp;
+    local -a toks;
+    toks=($(
+        compgen -d -- "$(quote_readline "$cur")" | {
+        while read -r tmp; do
+            printf '%s\n' $tmp
+        done
+        }
+        ));
+    eval xspec="${xspec}";
+    local matchop=!;
+    if [[ $xspec == !* ]]; then
+        xspec=${xspec#!};
+        matchop=@;
+    fi;
+    xspec="$matchop($xspec|${xspec^^})";
+    toks+=($(
+        eval compgen -f -X "!$xspec" -- "\$(quote_readline "\$cur")" | {
+        while read -r tmp; do
+            [[ -n $tmp ]] && printf '%s\n' $tmp
+        done
+        }
+        ));
+    if [[ ${#toks[@]} -ne 0 ]]; then
+        compopt -o filenames;
+        COMPREPLY=("${toks[@]}");
+    fi
+}
+_filename_parts () 
+{ 
+    COMPREPLY=($( command ls -F /usr/src/ 2>/dev/null | grep -E '^'$1'/$' 		| sed -r -e 's/^([^-]+)-(.+)\/$/\'$2'/' | grep "^$cur" ))
+}
+_fstypes () 
+{ 
+    local fss;
+    if [[ -e /proc/filesystems ]]; then
+        fss="$( cut -d'	' -f2 /proc/filesystems )
+             $( awk '! /\*/ { print $NF }' /etc/filesystems 2>/dev/null )";
+    else
+        fss="$( awk '/^[ \t]*[^#]/ { print $3 }' /etc/fstab 2>/dev/null )
+             $( awk '/^[ \t]*[^#]/ { print $3 }' /etc/mnttab 2>/dev/null )
+             $( awk '/^[ \t]*[^#]/ { print $4 }' /etc/vfstab 2>/dev/null )
+             $( awk '{ print $1 }' /etc/dfs/fstypes 2>/dev/null )
+             $( [[ -d /etc/fs ]] && command ls /etc/fs )";
+    fi;
+    [[ -n $fss ]] && COMPREPLY+=($( compgen -W "$fss" -- "$cur" ))
+}
+_get_comp_words_by_ref () 
+{ 
+    local exclude flag i OPTIND=1;
+    local cur cword words=();
+    local upargs=() upvars=() vcur vcword vprev vwords;
+    while getopts "c:i:n:p:w:" flag "$@"; do
+        case $flag in 
+            c)
+                vcur=$OPTARG
+            ;;
+            i)
+                vcword=$OPTARG
+            ;;
+            n)
+                exclude=$OPTARG
+            ;;
+            p)
+                vprev=$OPTARG
+            ;;
+            w)
+                vwords=$OPTARG
+            ;;
+        esac;
+    done;
+    while [[ $# -ge $OPTIND ]]; do
+        case ${!OPTIND} in 
+            cur)
+                vcur=cur
+            ;;
+            prev)
+                vprev=prev
+            ;;
+            cword)
+                vcword=cword
+            ;;
+            words)
+                vwords=words
+            ;;
+            *)
+                echo "bash: $FUNCNAME(): \`${!OPTIND}': unknown argument" 1>&2;
+                return 1
+            ;;
+        esac;
+        let "OPTIND += 1";
+    done;
+    __get_cword_at_cursor_by_ref "$exclude" words cword cur;
+    [[ -n $vcur ]] && { 
+        upvars+=("$vcur");
+        upargs+=(-v $vcur "$cur")
+    };
+    [[ -n $vcword ]] && { 
+        upvars+=("$vcword");
+        upargs+=(-v $vcword "$cword")
+    };
+    [[ -n $vprev && $cword -ge 1 ]] && { 
+        upvars+=("$vprev");
+        upargs+=(-v $vprev "${words[cword - 1]}")
+    };
+    [[ -n $vwords ]] && { 
+        upvars+=("$vwords");
+        upargs+=(-a${#words[@]} $vwords "${words[@]}")
+    };
+    (( ${#upvars[@]} )) && local "${upvars[@]}" && _upvars "${upargs[@]}"
+}
+_get_cword () 
+{ 
+    local LC_CTYPE=C;
+    local cword words;
+    __reassemble_comp_words_by_ref "$1" words cword;
+    if [[ -n ${2//[^0-9]/} ]]; then
+        printf "%s" "${words[cword-$2]}";
+    else
+        if [[ "${#words[cword]}" -eq 0 || "$COMP_POINT" == "${#COMP_LINE}" ]]; then
+            printf "%s" "${words[cword]}";
+        else
+            local i;
+            local cur="$COMP_LINE";
+            local index="$COMP_POINT";
+            for ((i = 0; i <= cword; ++i ))
+            do
+                while [[ "${#cur}" -ge ${#words[i]} && "${cur:0:${#words[i]}}" != "${words[i]}" ]]; do
+                    cur="${cur:1}";
+                    ((index--));
+                done;
+                if [[ "$i" -lt "$cword" ]]; then
+                    local old_size="${#cur}";
+                    cur="${cur#${words[i]}}";
+                    local new_size="${#cur}";
+                    index=$(( index - old_size + new_size ));
+                fi;
+            done;
+            if [[ "${words[cword]:0:${#cur}}" != "$cur" ]]; then
+                printf "%s" "${words[cword]}";
+            else
+                printf "%s" "${cur:0:$index}";
+            fi;
+        fi;
+    fi
+}
+_get_first_arg () 
+{ 
+    local i;
+    arg=;
+    for ((i=1; i < COMP_CWORD; i++ ))
+    do
+        if [[ "${COMP_WORDS[i]}" != -* ]]; then
+            arg=${COMP_WORDS[i]};
+            break;
+        fi;
+    done
+}
+_get_pword () 
+{ 
+    if [[ $COMP_CWORD -ge 1 ]]; then
+        _get_cword "${@:-}" 1;
+    fi
+}
+_gids () 
+{ 
+    if type getent &>/dev/null; then
+        COMPREPLY=($( compgen -W '$( getent group | cut -d: -f3 )'             -- "$cur" ));
+    else
+        if type perl &>/dev/null; then
+            COMPREPLY=($( compgen -W '$( perl -e '"'"'while (($gid) = (getgrent)[2]) { print $gid . "\n" }'"'"' )' -- "$cur" ));
+        else
+            COMPREPLY=($( compgen -W '$( cut -d: -f3 /etc/group )' -- "$cur" ));
+        fi;
+    fi
+}
+_grub_editenv () 
+{ 
+    local cur prev;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    case "$prev" in 
+        create | list | set | unset)
+            COMPREPLY=("");
+            return
+        ;;
+    esac;
+    __grubcomp "$(__grub_get_options_from_help)
+                create list set unset"
+}
+_grub_install () 
+{ 
+    local cur prev last split=false;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    last=$(__grub_get_last_option);
+    _split_longopt && split=true;
+    case "$prev" in 
+        --boot-directory)
+            _filedir -d;
+            return
+        ;;
+        --disk-module)
+            __grubcomp "biosdisk ata";
+            return
+        ;;
+    esac;
+    $split && return 0;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        case "$last" in 
+            --modules)
+                __grub_list_modules;
+                return
+            ;;
+        esac;
+        _filedir;
+    fi
+}
+_grub_mkconfig () 
+{ 
+    local cur prev;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_grub_mkfont () 
+{ 
+    local cur;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_grub_mkimage () 
+{ 
+    local cur prev split=false;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    _split_longopt && split=true;
+    case "$prev" in 
+        -d | --directory | -p | --prefix)
+            _filedir -d;
+            return
+        ;;
+        -O | --format)
+            local prog=${COMP_WORDS[0]};
+            __grubcomp "$(LC_ALL=C $prog --help |                         awk -F ":" '/available formats/ { print $2 }' |                         sed 's/, / /g')";
+            return
+        ;;
+    esac;
+    $split && return 0;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_grub_mkpasswd_pbkdf2 () 
+{ 
+    local cur;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_grub_mkrescue () 
+{ 
+    local cur prev last;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    last=$(__grub_get_last_option);
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        case "$last" in 
+            --modules)
+                __grub_list_modules;
+                return
+            ;;
+        esac;
+        _filedir;
+    fi
+}
+_grub_probe () 
+{ 
+    local cur prev split=false;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    _split_longopt && split=true;
+    case "$prev" in 
+        -t | --target)
+            local prog=${COMP_WORDS[0]};
+            __grubcomp "$(LC_ALL=C $prog --help |                         awk -F "[()]" '/--target=/ { print $2 }' |                         sed 's/|/ /g')";
+            return
+        ;;
+    esac;
+    $split && return 0;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_grub_script_check () 
+{ 
+    local cur;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_grub_set_entry () 
+{ 
+    local cur prev split=false;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    _split_longopt && split=true;
+    case "$prev" in 
+        --boot-directory)
+            _filedir -d;
+            return
+        ;;
+    esac;
+    $split && return 0;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        __grub_list_menuentries;
+    fi
+}
+_grub_setup () 
+{ 
+    local cur prev split=false;
+    COMPREPLY=();
+    cur=`_get_cword`;
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    _split_longopt && split=true;
+    case "$prev" in 
+        -d | --directory)
+            _filedir -d;
+            return
+        ;;
+    esac;
+    $split && return 0;
+    if [[ "$cur" == -* ]]; then
+        __grubcomp "$(__grub_get_options_from_help)";
+    else
+        _filedir;
+    fi
+}
+_have () 
+{ 
+    PATH=$PATH:/usr/sbin:/sbin:/usr/local/sbin type $1 &>/dev/null
+}
+_init_completion () 
+{ 
+    local exclude= flag outx errx inx OPTIND=1;
+    while getopts "n:e:o:i:s" flag "$@"; do
+        case $flag in 
+            n)
+                exclude+=$OPTARG
+            ;;
+            e)
+                errx=$OPTARG
+            ;;
+            o)
+                outx=$OPTARG
+            ;;
+            i)
+                inx=$OPTARG
+            ;;
+            s)
+                split=false;
+                exclude+==
+            ;;
+        esac;
+    done;
+    COMPREPLY=();
+    local redir="@(?([0-9])<|?([0-9&])>?(>)|>&)";
+    _get_comp_words_by_ref -n "$exclude<>&" cur prev words cword;
+    _variables && return 1;
+    if [[ $cur == $redir* || $prev == $redir ]]; then
+        local xspec;
+        case $cur in 
+            2'>'*)
+                xspec=$errx
+            ;;
+            *'>'*)
+                xspec=$outx
+            ;;
+            *'<'*)
+                xspec=$inx
+            ;;
+            *)
+                case $prev in 
+                    2'>'*)
+                        xspec=$errx
+                    ;;
+                    *'>'*)
+                        xspec=$outx
+                    ;;
+                    *'<'*)
+                        xspec=$inx
+                    ;;
+                esac
+            ;;
+        esac;
+        cur="${cur##$redir}";
+        _filedir $xspec;
+        return 1;
+    fi;
+    local i skip;
+    for ((i=1; i < ${#words[@]}; 1))
+    do
+        if [[ ${words[i]} == $redir* ]]; then
+            [[ ${words[i]} == $redir ]] && skip=2 || skip=1;
+            words=("${words[@]:0:i}" "${words[@]:i+skip}");
+            [[ $i -le $cword ]] && cword=$(( cword - skip ));
+        else
+            i=$(( ++i ));
+        fi;
+    done;
+    [[ $cword -eq 0 ]] && return 1;
+    prev=${words[cword-1]};
+    [[ -n ${split-} ]] && _split_longopt && split=true;
+    return 0
+}
+_installed_modules () 
+{ 
+    COMPREPLY=($( compgen -W "$( PATH="$PATH:/sbin" lsmod |         awk '{if (NR != 1) print $1}' )" -- "$1" ))
+}
+_ip_addresses () 
+{ 
+    COMPREPLY+=($( compgen -W         "$( PATH="$PATH:/sbin" LC_ALL=C ifconfig -a |
+            sed -ne 's/.*addr:\([^[:space:]]*\).*/\1/p'                 -ne 's/.*inet[[:space:]]\{1,\}\([^[:space:]]*\).*/\1/p' )"         -- "$cur" ))
+}
+_kernel_versions () 
+{ 
+    COMPREPLY=($( compgen -W '$( command ls /lib/modules )' -- "$cur" ))
+}
+_kernels () 
+{ 
+    COMPREPLY=($( cd /lib/modules && compgen -d -- "$cur" ))
+}
+_known_hosts () 
+{ 
+    local cur prev words cword;
+    _init_completion -n : || return;
+    local options;
+    [[ "$1" == -a || "$2" == -a ]] && options=-a;
+    [[ "$1" == -c || "$2" == -c ]] && options+=" -c";
+    _known_hosts_real $options -- "$cur"
+}
+_known_hosts_real () 
+{ 
+    local configfile flag prefix;
+    local cur curd awkcur user suffix aliases i host;
+    local -a kh khd config;
+    local OPTIND=1;
+    while getopts "acF:p:" flag "$@"; do
+        case $flag in 
+            a)
+                aliases='yes'
+            ;;
+            c)
+                suffix=':'
+            ;;
+            F)
+                configfile=$OPTARG
+            ;;
+            p)
+                prefix=$OPTARG
+            ;;
+        esac;
+    done;
+    [[ $# -lt $OPTIND ]] && echo "error: $FUNCNAME: missing mandatory argument CWORD";
+    cur=${!OPTIND};
+    let "OPTIND += 1";
+    [[ $# -ge $OPTIND ]] && echo "error: $FUNCNAME("$@"): unprocessed arguments:" $(while [[ $# -ge $OPTIND ]]; do printf '%s\n' ${!OPTIND}; shift; done);
+    [[ $cur == *@* ]] && user=${cur%@*}@ && cur=${cur#*@};
+    kh=();
+    if [[ -n $configfile ]]; then
+        [[ -r $configfile ]] && config+=("$configfile");
+    else
+        for i in /etc/ssh/ssh_config ~/.ssh/config ~/.ssh2/config;
+        do
+            [[ -r $i ]] && config+=("$i");
+        done;
+    fi;
+    if [[ ${#config[@]} -gt 0 ]]; then
+        local OIFS=$IFS IFS='
+' j;
+        local -a tmpkh;
+        tmpkh=($( awk 'sub("^[ \t]*([Gg][Ll][Oo][Bb][Aa][Ll]|[Uu][Ss][Ee][Rr])[Kk][Nn][Oo][Ww][Nn][Hh][Oo][Ss][Tt][Ss][Ff][Ii][Ll][Ee][ \t]+", "") { print $0 }' "${config[@]}" | sort -u ));
+        IFS=$OIFS;
+        for i in "${tmpkh[@]}";
+        do
+            while [[ $i =~ ^([^\"]*)\"([^\"]*)\"(.*)$ ]]; do
+                i=${BASH_REMATCH[1]}${BASH_REMATCH[3]};
+                j=${BASH_REMATCH[2]};
+                __expand_tilde_by_ref j;
+                [[ -r $j ]] && kh+=("$j");
+            done;
+            for j in $i;
+            do
+                __expand_tilde_by_ref j;
+                [[ -r $j ]] && kh+=("$j");
+            done;
+        done;
+    fi;
+    if [[ -z $configfile ]]; then
+        for i in /etc/ssh/ssh_known_hosts /etc/ssh/ssh_known_hosts2 /etc/known_hosts /etc/known_hosts2 ~/.ssh/known_hosts ~/.ssh/known_hosts2;
+        do
+            [[ -r $i ]] && kh+=("$i");
+        done;
+        for i in /etc/ssh2/knownhosts ~/.ssh2/hostkeys;
+        do
+            [[ -d $i ]] && khd+=("$i"/*pub);
+        done;
+    fi;
+    if [[ ${#kh[@]} -gt 0 || ${#khd[@]} -gt 0 ]]; then
+        awkcur=${cur//\//\\\/};
+        awkcur=${awkcur//\./\\\.};
+        curd=$awkcur;
+        if [[ "$awkcur" == [0-9]*[.:]* ]]; then
+            awkcur="^$awkcur[.:]*";
+        else
+            if [[ "$awkcur" == [0-9]* ]]; then
+                awkcur="^$awkcur.*[.:]";
+            else
+                if [[ -z $awkcur ]]; then
+                    awkcur="[a-z.:]";
+                else
+                    awkcur="^$awkcur";
+                fi;
+            fi;
+        fi;
+        if [[ ${#kh[@]} -gt 0 ]]; then
+            COMPREPLY+=($( awk 'BEGIN {FS=","}
+            /^\s*[^|\#]/ {
+            sub("^@[^ ]+ +", ""); \
+            sub(" .*$", ""); \
+            for (i=1; i<=NF; ++i) { \
+            sub("^\\[", "", $i); sub("\\](:[0-9]+)?$", "", $i); \
+            if ($i !~ /[*?]/ && $i ~ /'"$awkcur"'/) {print $i} \
+            }}' "${kh[@]}" 2>/dev/null ));
+        fi;
+        if [[ ${#khd[@]} -gt 0 ]]; then
+            for i in "${khd[@]}";
+            do
+                if [[ "$i" == *key_22_$curd*.pub && -r "$i" ]]; then
+                    host=${i/#*key_22_/};
+                    host=${host/%.pub/};
+                    COMPREPLY+=($host);
+                fi;
+            done;
+        fi;
+        for ((i=0; i < ${#COMPREPLY[@]}; i++ ))
+        do
+            COMPREPLY[i]=$prefix$user${COMPREPLY[i]}$suffix;
+        done;
+    fi;
+    if [[ ${#config[@]} -gt 0 && -n "$aliases" ]]; then
+        local hosts=$( sed -ne 's/^[ \t]*[Hh][Oo][Ss][Tt]\([Nn][Aa][Mm][Ee]\)\{0,1\}['"$'\t '"']\{1,\}\([^#*?]*\)\(#.*\)\{0,1\}$/\2/p' "${config[@]}" );
+        COMPREPLY+=($( compgen -P "$prefix$user"             -S "$suffix" -W "$hosts" -- "$cur" ));
+    fi;
+    COMPREPLY+=($( compgen -W         "$( ruptime 2>/dev/null | awk '{ print $1 }' )" -- "$cur" ));
+    if [[ -n ${COMP_KNOWN_HOSTS_WITH_HOSTFILE-1} ]]; then
+        COMPREPLY+=($( compgen -A hostname -P "$prefix$user" -S "$suffix" -- "$cur" ));
+    fi;
+    __ltrim_colon_completions "$prefix$user$cur";
+    return 0
+}
+_loexp_ () 
+{ 
+    local c=${COMP_WORDS[COMP_CWORD]};
+    local a="${COMP_LINE}";
+    local e s g=0 cd dc t="";
+    local IFS;
+    shopt -q extglob && g=1;
+    test $g -eq 0 && shopt -s extglob;
+    cd='*-?(c)d*';
+    dc='*-d?(c)*';
+    case "${1##*/}" in 
+        lobase)
+            e='!*.+(odb|ODB)'
+        ;;
+        lofromtemplate)
+            e='!*.+(stw|STW|dot|DOT|vor|VOR|stc|STC|xlt|XLT|sti|STI|pot|POT|std|STD|stw|STW|dotm|DOTM|dotx|DOTX|potm|POTM|potx|POTX|xltm|XLTM|xltx|XLTX)'
+        ;;
+        lodraw)
+            e='!*.+(sxd|SXD|std|STD|dxf|DXF|emf|EMF|eps|EPS|met|MET|pct|PCT|sgf|SGF|sgv|SGV|sda|SDA|sdd|SDD|vor|VOR|svm|SVM|wmf|WMF|bmp|BMP|gif|GIF|jpg|JPG|jpeg|JPEG|jfif|JFIF|fif|FIF|jpe|JPE|pcd|PCD|pcx|PCX|pgm|PGM|png|PNG|ppm|PPM|psd|PSD|ras|RAS|tga|TGA|tif|TIF|tiff|TIFF|xbm|XBM|xpm|XPM|odg|ODG|otg|OTG|fodg|FODG|odc|ODC|odi|ODI|sds|SDS|wpg|WPG|svg|SVG)'
+        ;;
+        localc)
+            e='!*.+(sxc|SXC|stc|STC|dif|DIF|dbf|DBF|xls|XLS|xlw|XLW|xlt|XLT|rtf|RTF|sdc|SDC|vor|VOR|slk|SLK|txt|TXT|htm|HTM|html|HTML|wk1|WK1|wks|WKS|123|123|xml|XML|ods|ODS|ots|OTS|fods|FODS|csv|CSV|xlsb|XLSB|xlsm|XLSM|xlsx|XLSX|xltm|XLTM|xltx|XLTX)'
+        ;;
+        lomath)
+            e='!*.+(sxm|SXM|smf|SMF|mml|MML|odf|ODF)'
+        ;;
+        loweb)
+            e='!*.+(htm|HTM|html|HTML|stw|STW|txt|TXT|vor|VOR|oth|OTH)'
+        ;;
+        libreoffice)
+            e='!*.+(sxd|SXD|std|STD|dxf|DXF|emf|EMF|eps|EPS|met|MET|pct|PCT|sgf|SGF|sgv|SGV|sda|SDA|sdd|SDD|vor|VOR|svm|SVM|wmf|WMF|bmp|BMP|gif|GIF|jpg|JPG|jpeg|JPEG|jfif|JFIF|fif|FIF|jpe|JPE|pcd|PCD|pcx|PCX|pgm|PGM|png|PNG|ppm|PPM|psd|PSD|ras|RAS|tga|TGA|tif|TIF|tiff|TIFF|xbm|XBM|xpm|XPM|odg|ODG|otg|OTG|fodg|FODG|odc|ODC|odi|ODI|sds|SDS|wpg|WPG|svg|SVG|doc|DOC|dot|DOT|rtf|RTF|sxw|SXW|stw|STW|sdw|SDW|vor|VOR|txt|TXT|htm?|HTM?|xml|XML|wp|WP|wpd|WPD|wps|WPS|odt|ODT|ott|OTT|fodt|FODT|docm|DOCM|docx|DOCX|dotm|DOTM|dotx|DOTX|sxm|SXM|smf|SMF|mml|MML|odf|ODF|sxi|SXI|sti|STI|ppt|PPT|pps|PPS|pot|POT|sxd|SXD|sda|SDA|sdd|SDD|sdp|SDP|vor|VOR|cgm|CGM|odp|ODP|otp|OTP|fodp|FODP|ppsm|PPSM|ppsx|PPSX|pptm|PPTM|pptx|PPTX|potm|POTM|potx|POTX|odb|ODB|sxc|SXC|stc|STC|dif|DIF|dbf|DBF|xls|XLS|xlw|XLW|xlt|XLT|rtf|RTF|sdc|SDC|vor|VOR|slk|SLK|txt|TXT|htm|HTM|html|HTML|wk1|WK1|wks|WKS|123|123|xml|XML|ods|ODS|ots|OTS|fods|FODS|csv|CSV|xlsb|XLSB|xlsm|XLSM|xlsx|XLSX|xltm|XLTM|xltx|XLTX|sxg|SXG|odm|ODM|sgl|SGL|stw|STW|dot|DOT|vor|VOR|stc|STC|xlt|XLT|sti|STI|pot|POT|std|STD|stw|STW|dotm|DOTM|dotx|DOTX|potm|POTM|potx|POTX|xltm|XLTM|xltx|XLTX|htm|HTM|html|HTML|stw|STW|txt|TXT|vor|VOR|oth|OTH)'
+        ;;
+        lowriter)
+            e='!*.+(doc|DOC|dot|DOT|rtf|RTF|sxw|SXW|stw|STW|sdw|SDW|vor|VOR|txt|TXT|htm?|HTM?|xml|XML|wp|WP|wpd|WPD|wps|WPS|odt|ODT|ott|OTT|fodt|FODT|docm|DOCM|docx|DOCX|dotm|DOTM|dotx|DOTX|sxg|SXG|odm|ODM|sgl|SGL)'
+        ;;
+        loimpress)
+            e='!*.+(sxi|SXI|sti|STI|ppt|PPT|pps|PPS|pot|POT|sxd|SXD|sda|SDA|sdd|SDD|sdp|SDP|vor|VOR|cgm|CGM|odp|ODP|otp|OTP|fodp|FODP|ppsm|PPSM|ppsx|PPSX|pptm|PPTM|pptx|PPTX|potm|POTM|potx|POTX)'
+        ;;
+        unopkg)
+            e='!*.+(oxt|OXT)'
+        ;;
+        loffice)
+            e='!*.+(sxd|SXD|std|STD|dxf|DXF|emf|EMF|eps|EPS|met|MET|pct|PCT|sgf|SGF|sgv|SGV|sda|SDA|sdd|SDD|vor|VOR|svm|SVM|wmf|WMF|bmp|BMP|gif|GIF|jpg|JPG|jpeg|JPEG|jfif|JFIF|fif|FIF|jpe|JPE|pcd|PCD|pcx|PCX|pgm|PGM|png|PNG|ppm|PPM|psd|PSD|ras|RAS|tga|TGA|tif|TIF|tiff|TIFF|xbm|XBM|xpm|XPM|odg|ODG|otg|OTG|fodg|FODG|odc|ODC|odi|ODI|sds|SDS|wpg|WPG|svg|SVG|doc|DOC|dot|DOT|rtf|RTF|sxw|SXW|stw|STW|sdw|SDW|vor|VOR|txt|TXT|htm?|HTM?|xml|XML|wp|WP|wpd|WPD|wps|WPS|odt|ODT|ott|OTT|fodt|FODT|docm|DOCM|docx|DOCX|dotm|DOTM|dotx|DOTX|sxm|SXM|smf|SMF|mml|MML|odf|ODF|sxi|SXI|sti|STI|ppt|PPT|pps|PPS|pot|POT|sxd|SXD|sda|SDA|sdd|SDD|sdp|SDP|vor|VOR|cgm|CGM|odp|ODP|otp|OTP|fodp|FODP|ppsm|PPSM|ppsx|PPSX|pptm|PPTM|pptx|PPTX|potm|POTM|potx|POTX|odb|ODB|sxc|SXC|stc|STC|dif|DIF|dbf|DBF|xls|XLS|xlw|XLW|xlt|XLT|rtf|RTF|sdc|SDC|vor|VOR|slk|SLK|txt|TXT|htm|HTM|html|HTML|wk1|WK1|wks|WKS|123|123|xml|XML|ods|ODS|ots|OTS|fods|FODS|csv|CSV|xlsb|XLSB|xlsm|XLSM|xlsx|XLSX|xltm|XLTM|xltx|XLTX|sxg|SXG|odm|ODM|sgl|SGL|stw|STW|dot|DOT|vor|VOR|stc|STC|xlt|XLT|sti|STI|pot|POT|std|STD|stw|STW|dotm|DOTM|dotx|DOTX|potm|POTM|potx|POTX|xltm|XLTM|xltx|XLTX|htm|HTM|html|HTML|stw|STW|txt|TXT|vor|VOR|oth|OTH)'
+        ;;
+        *)
+            e='!*'
+        ;;
+    esac;
+    case "$(complete -p ${1##*/} 2> /dev/null)" in 
+        *-d*)
+
+        ;;
+        *)
+            s="-S/"
+        ;;
+    esac;
+    IFS='
+';
+    case "$c" in 
+        \$\(*\))
+            eval COMPREPLY=\(${c}\)
+        ;;
+        \$\(*)
+            COMPREPLY=($(compgen -c -P '$(' -S ')'  -- ${c#??}))
+        ;;
+        \`*\`)
+            eval COMPREPLY=\(${c}\)
+        ;;
+        \`*)
+            COMPREPLY=($(compgen -c -P '\`' -S '\`' -- ${c#?}))
+        ;;
+        \$\{*\})
+            eval COMPREPLY=\(${c}\)
+        ;;
+        \$\{*)
+            COMPREPLY=($(compgen -v -P '${' -S '}'  -- ${c#??}))
+        ;;
+        \$*)
+            COMPREPLY=($(compgen -v -P '$'          -- ${c#?}))
+        ;;
+        \~*/*)
+            COMPREPLY=($(compgen -f -X "$e"         -- ${c}))
+        ;;
+        \~*)
+            COMPREPLY=($(compgen -u ${s}	 	-- ${c}))
+        ;;
+        *@*)
+            COMPREPLY=($(compgen -A hostname -P '@' -S ':' -- ${c#*@}))
+        ;;
+        *[*?[]*)
+            COMPREPLY=($(compgen -G "${c}"))
+        ;;
+        *[?*+\!@]\(*\)*)
+            if test $g -eq 0; then
+                COMPREPLY=($(compgen -f -X "$e" -- $c));
+                test $g -eq 0 && shopt -u extglob;
+                return;
+            fi;
+            COMPREPLY=($(compgen -G "${c}"))
+        ;;
+        *)
+            if test "$c" = ".."; then
+                COMPREPLY=($(compgen -d -X "$e" -S / ${_nosp} -- $c));
+            else
+                for s in $(compgen -f -X "$e" -- $c);
+                do
+                    if test -d $s; then
+                        COMPREPLY=(${COMPREPLY[@]} $(compgen -f -X "$e" -S / -- $s));
+                    else
+                        if test -z "$t"; then
+                            COMPREPLY=(${COMPREPLY[@]} $s);
+                        else
+                            case "$(file -b $s 2> /dev/null)" in 
+                                $t)
+                                    COMPREPLY=(${COMPREPLY[@]} $s)
+                                ;;
+                            esac;
+                        fi;
+                    fi;
+                done;
+            fi
+        ;;
+    esac;
+    test $g -eq 0 && shopt -u extglob
+}
+_longopt () 
+{ 
+    local cur prev words cword split;
+    _init_completion -s || return;
+    case "${prev,,}" in 
+        --help | --usage | --version)
+            return 0
+        ;;
+        --*dir*)
+            _filedir -d;
+            return 0
+        ;;
+        --*file* | --*path*)
+            _filedir;
+            return 0
+        ;;
+        --+([-a-z0-9_]))
+            local argtype=$( $1 --help 2>&1 | sed -ne                 "s|.*$prev\[\{0,1\}=[<[]\{0,1\}\([-A-Za-z0-9_]\{1,\}\).*|\1|p" );
+            case ${argtype,,} in 
+                *dir*)
+                    _filedir -d;
+                    return 0
+                ;;
+                *file* | *path*)
+                    _filedir;
+                    return 0
+                ;;
+            esac
+        ;;
+    esac;
+    $split && return 0;
+    if [[ "$cur" == -* ]]; then
+        COMPREPLY=($( compgen -W "$( $1 --help 2>&1 |             sed -ne 's/.*\(--[-A-Za-z0-9]\{1,\}=\{0,1\}\).*/\1/p' | sort -u )"             -- "$cur" ));
+        [[ $COMPREPLY == *= ]] && compopt -o nospace;
+    else
+        if [[ "$1" == @(mk|rm)dir ]]; then
+            _filedir -d;
+        else
+            _filedir;
+        fi;
+    fi
+}
+_mac_addresses () 
+{ 
+    local re='\([A-Fa-f0-9]\{2\}:\)\{5\}[A-Fa-f0-9]\{2\}';
+    local PATH="$PATH:/sbin:/usr/sbin";
+    COMPREPLY+=($( ifconfig -a 2>/dev/null | sed -ne         "s/.*[[:space:]]HWaddr[[:space:]]\{1,\}\($re\)[[:space:]]*$/\1/p" -ne         "s/^[[:space:]]\{1,\}ether[[:space:]]\{1,\}\($re\)[[:space:]]*$/\1/p"         ));
+    COMPREPLY+=($( arp -an 2>/dev/null | sed -ne         "s/.*[[:space:]]\($re\)[[:space:]].*/\1/p" -ne         "s/.*[[:space:]]\($re\)[[:space:]]*$/\1/p" ));
+    COMPREPLY+=($( sed -ne         "s/^[[:space:]]*\($re\)[[:space:]].*/\1/p" /etc/ethers 2>/dev/null ));
+    COMPREPLY=($( compgen -W '${COMPREPLY[@]}' -- "$cur" ));
+    __ltrim_colon_completions "$cur"
+}
+_minimal () 
+{ 
+    local cur prev words cword split;
+    _init_completion -s || return;
+    $split && return;
+    _filedir
+}
+_modules () 
+{ 
+    local modpath;
+    modpath=/lib/modules/$1;
+    COMPREPLY=($( compgen -W "$( command ls -RL $modpath 2>/dev/null |         sed -ne 's/^\(.*\)\.k\{0,1\}o\(\.[gx]z\)\{0,1\}$/\1/p' )" -- "$cur" ))
+}
+_ncpus () 
+{ 
+    local var=NPROCESSORS_ONLN;
+    [[ $OSTYPE == *linux* ]] && var=_$var;
+    local n=$( getconf $var 2>/dev/null );
+    printf %s ${n:-1}
+}
+_optirun () 
+{ 
+    local i prev cur last_optirun_offset compress_types in_option;
+    in_option=false;
+    last_optirun_offset=0;
+    compress_types='proxy jpeg rgb xv yuv';
+    for ((i=1; i<=COMP_CWORD; i++ ))
+    do
+        prev="${COMP_WORDS[i-1]}";
+        cur="${COMP_WORDS[i]}";
+        if $in_option; then
+            in_option=false;
+        else
+            case "$prev" in 
+                -c | --vgl-compress | --failsafe | --display | -d | --config | -C | --ldpath | -l | --primus-ldpath | --socket | -s | -b | --bridge)
+                    in_option=true
+                ;;
+                --)
+                    break
+                ;;
+            esac;
+        fi;
+        if ! $in_option; then
+            [[ "$cur" != -* ]] && break;
+        fi;
+        last_optirun_offset=$i;
+    done;
+    if [ $last_optirun_offset -eq $COMP_CWORD ]; then
+        case "$prev" in 
+            -b | --bridge)
+                COMPREPLY=($(compgen -W "auto primus virtualgl" -- "$cur"))
+            ;;
+            -c | --vgl-compress)
+                COMPREPLY=($(compgen -W "$compress_types" -- "$cur"))
+            ;;
+            --failsafe)
+                COMPREPLY=($(compgen -W "true false" -- "$cur"))
+            ;;
+            -d | --display)
+
+            ;;
+            -C | --config | -s | --socket)
+                _filedir
+            ;;
+            -l | --ldpath | --primus-ldpath)
+
+            ;;
+            *)
+                COMPREPLY=($(compgen -W "--vgl-compress -c --failsafe --quiet 	        --silent -q --verbose -v --display -d --config -C --ldpath -l                 --primus-ldpath --socket -s --help -h --" -- "$cur"))
+            ;;
+        esac;
+        return 0;
+    fi;
+    _command_offset $i
+}
+_parse_help () 
+{ 
+    eval local cmd=$( quote "$1" );
+    local line;
+    { 
+        case $cmd in 
+            -)
+                cat
+            ;;
+            *)
+                "$( dequote "$cmd" )" ${2:---help} 2>&1
+            ;;
+        esac
+    } | while read -r line; do
+        [[ $line == *([ '	'])-* ]] || continue;
+        while [[ $line =~ ((^|[^-])-[A-Za-z0-9?][[:space:]]+)\[?[A-Z0-9]+\]? ]]; do
+            line=${line/"${BASH_REMATCH[0]}"/"${BASH_REMATCH[1]}"};
+        done;
+        __parse_options "${line// or /, }";
+    done
+}
+_parse_usage () 
+{ 
+    eval local cmd=$( quote "$1" );
+    local line match option i char;
+    { 
+        case $cmd in 
+            -)
+                cat
+            ;;
+            *)
+                "$( dequote "$cmd" )" ${2:---usage} 2>&1
+            ;;
+        esac
+    } | while read -r line; do
+        while [[ $line =~ \[[[:space:]]*(-[^]]+)[[:space:]]*\] ]]; do
+            match=${BASH_REMATCH[0]};
+            option=${BASH_REMATCH[1]};
+            case $option in 
+                -?(\[)+([a-zA-Z0-9?]))
+                    for ((i=1; i < ${#option}; i++ ))
+                    do
+                        char=${option:i:1};
+                        [[ $char != '[' ]] && printf '%s\n' -$char;
+                    done
+                ;;
+                *)
+                    __parse_options "$option"
+                ;;
+            esac;
+            line=${line#*"$match"};
+        done;
+    done
+}
+_pci_ids () 
+{ 
+    COMPREPLY+=($( compgen -W         "$( PATH="$PATH:/sbin" lspci -n | awk '{print $3}')" -- "$cur" ))
+}
+_pgids () 
+{ 
+    COMPREPLY=($( compgen -W '$( command ps axo pgid= )' -- "$cur" ))
+}
+_pids () 
+{ 
+    COMPREPLY=($( compgen -W '$( command ps axo pid= )' -- "$cur" ))
+}
+_pnames () 
+{ 
+    COMPREPLY=($( compgen -X '<defunct>' -W '$( command ps axo command= | \
+        sed -e "s/ .*//" -e "s:.*/::" -e "s/:$//" -e "s/^[[(-]//" \
+            -e "s/[])]$//" | sort -u )' -- "$cur" ))
+}
+_poff () 
+{ 
+    local prev cur conns;
+    [ -r /etc/ppp/peers/ ] || return 0;
+    COMPREPLY=();
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    cur=${COMP_WORDS[COMP_CWORD]};
+    conns=$(\ls --color=none /etc/ppp/peers | egrep -v '(\.bak|~)$');
+    if [[ "$cur" == -* ]]; then
+        COMPREPLY=($(compgen -W '-r -d -c -a -h -v' -- $cur));
+        return 0;
+    fi;
+    if [ $COMP_CWORD -eq 1 ] && [[ "$cur" != -* ]] || [[ "$prev" == -* ]]; then
+        COMPREPLY=($(compgen -o filenames -W "$conns" $cur));
+    fi;
+    return 0
+}
+_pon () 
+{ 
+    local cur conns;
+    [ -r /etc/ppp/peers/ ] || return 0;
+    COMPREPLY=();
+    cur=${COMP_WORDS[COMP_CWORD]};
+    conns=$(\ls --color=none /etc/ppp/peers | egrep -v '(\.bak|~)$');
+    if [ $COMP_CWORD -eq 1 ]; then
+        COMPREPLY=($(compgen -o filenames -W "$conns" $cur));
+    fi;
+    return 0
+}
+_quote_readline_by_ref () 
+{ 
+    if [[ $1 == \'* ]]; then
+        printf -v $2 %s "${1:1}";
+    else
+        printf -v $2 %q "$1";
+    fi;
+    [[ ${!2} == \$* ]] && eval $2=${!2}
+}
+_realcommand () 
+{ 
+    type -P "$1" > /dev/null && { 
+        if type -p realpath > /dev/null; then
+            realpath "$(type -P "$1")";
+        else
+            if type -p greadlink > /dev/null; then
+                greadlink -f "$(type -P "$1")";
+            else
+                if type -p readlink > /dev/null; then
+                    readlink -f "$(type -P "$1")";
+                else
+                    type -P "$1";
+                fi;
+            fi;
+        fi
+    }
+}
+_rl_enabled () 
+{ 
+    [[ "$( bind -v )" = *$1+([[:space:]])on* ]]
+}
+_root_command () 
+{ 
+    local PATH=$PATH:/sbin:/usr/sbin:/usr/local/sbin;
+    local root_command=$1;
+    _command
+}
+_scp () 
+{ 
+    local cur prev words cword;
+    _init_completion -n : || return;
+    local configfile prefix;
+    _ssh_suboption_check && { 
+        COMPREPLY=("${COMPREPLY[@]/%/ }");
+        return 0
+    };
+    case $prev in 
+        -l | -P)
+            return 0
+        ;;
+        -F | -i | -S)
+            _filedir;
+            compopt +o nospace;
+            return 0
+        ;;
+        -c)
+            _ssh_ciphers;
+            COMPREPLY=("${COMPREPLY[@]/%/ }");
+            return 0
+        ;;
+        -o)
+            _ssh_options;
+            return 0
+        ;;
+    esac;
+    _expand || return 0;
+    if [[ "$cur" == *:* ]]; then
+        _scp_remote_files;
+        return 0;
+    fi;
+    if [[ "$cur" == -F* ]]; then
+        cur=${cur#-F};
+        prefix=-F;
+    else
+        set -- "${words[@]}";
+        while [[ $# -gt 0 ]]; do
+            if [[ $1 == -F* ]]; then
+                if [[ ${#1} -gt 2 ]]; then
+                    configfile="$(dequote "${1:2}")";
+                else
+                    shift;
+                    [[ -n $1 ]] && configfile="$(dequote "$1")";
+                fi;
+                break;
+            fi;
+            shift;
+        done;
+        case $cur in 
+            -*)
+                COMPREPLY=($( compgen -W '$( _parse_usage "${words[0]}" )'                     -- "$cur" ));
+                COMPREPLY=("${COMPREPLY[@]/%/ }");
+                return 0
+            ;;
+            */* | [.~]*)
+
+            ;;
+            *)
+                _known_hosts_real -c -a -F "$configfile" "$cur"
+            ;;
+        esac;
+    fi;
+    _scp_local_files "$prefix";
+    return 0
+}
+_scp_local_files () 
+{ 
+    local IFS='
+';
+    local dirsonly=false;
+    if [[ $1 == -d ]]; then
+        dirsonly=true;
+        shift;
+    fi;
+    if $dirsonly; then
+        COMPREPLY+=($( command ls -aF1dL $cur* 2>/dev/null |             sed -e "s/$_scp_path_esc/\\\\&/g" -e '/[^\/]$/d' -e "s/^/$1/"));
+    else
+        COMPREPLY+=($( command ls -aF1dL $cur* 2>/dev/null |             sed -e "s/$_scp_path_esc/\\\\&/g" -e 's/[*@|=]$//g'             -e 's/[^\/]$/& /g' -e "s/^/$1/"));
+    fi
+}
+_scp_remote_files () 
+{ 
+    local IFS='
+';
+    cur=${cur/\\:/:};
+    local userhost=${cur%%?(\\):*};
+    local path=${cur#*:};
+    path=$( sed -e 's/\\\\\\\('$_scp_path_esc'\)/\\\1/g' <<<"$path" );
+    if [[ -z $path ]]; then
+        path=$(ssh -o 'Batchmode yes' $userhost pwd 2>/dev/null);
+    fi;
+    local files;
+    if [[ $1 == -d ]]; then
+        files=$( ssh -o 'Batchmode yes' $userhost             command ls -aF1dL "$path*" 2>/dev/null |             sed -e 's/'$_scp_path_esc'/\\\\\\&/g' -e '/[^\/]$/d' );
+    else
+        files=$( ssh -o 'Batchmode yes' $userhost             command ls -aF1dL "$path*" 2>/dev/null |             sed -e 's/'$_scp_path_esc'/\\\\\\&/g' -e 's/[*@|=]$//g'             -e 's/[^\/]$/& /g' );
+    fi;
+    COMPREPLY+=($files)
+}
+_service () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    [[ $cword -gt 2 ]] && return 0;
+    if [[ $cword -eq 1 && $prev == ?(*/)service ]]; then
+        _services;
+        [[ -e /etc/mandrake-release ]] && _xinetd_services;
+    else
+        local sysvdirs;
+        _sysvdirs;
+        COMPREPLY=($( compgen -W '`sed -e "y/|/ /" \
+            -ne "s/^.*\(U\|msg_u\)sage.*{\(.*\)}.*$/\2/p" \
+            ${sysvdirs[0]}/${prev##*/} 2>/dev/null` start stop' -- "$cur" ));
+    fi
+}
+_services () 
+{ 
+    local sysvdirs;
+    _sysvdirs;
+    local restore_nullglob=$(shopt -p nullglob);
+    shopt -s nullglob;
+    COMPREPLY=($( printf '%s\n' ${sysvdirs[0]}/!($_backup_glob|functions) ));
+    $restore_nullglob;
+    COMPREPLY+=($( systemctl list-units --full --all 2>/dev/null |         awk '$1 ~ /\.service$/ { sub("\\.service$", "", $1); print $1 }' ));
+    COMPREPLY=($( compgen -W '${COMPREPLY[@]#${sysvdirs[0]}/}' -- "$cur" ))
+}
+_sftp () 
+{ 
+    local cur prev words cword;
+    _init_completion || return;
+    local configfile;
+    _ssh_suboption_check && return 0;
+    case $prev in 
+        -b | -F | -i)
+            _filedir;
+            return 0
+        ;;
+        -o)
+            _ssh_options;
+            return 0
+        ;;
+        -c)
+            _ssh_ciphers;
+            return 0
+        ;;
+        -B | -D | -P | -R | -S | -s)
+            return 0
+        ;;
+    esac;
+    if [[ "$cur" == -F* ]]; then
+        cur=${cur#-F};
+        _filedir;
+        COMPREPLY=("${COMPREPLY[@]/#/-F}");
+        cur=-F$cur;
+    else
+        if [[ "$cur" == -* ]]; then
+            COMPREPLY=($( compgen -W '$( _parse_usage "$1" )' -- "$cur" ));
+        else
+            set -- "${words[@]}";
+            while [[ $# -gt 0 ]]; do
+                if [[ $1 == -F* ]]; then
+                    if [[ ${#1} -gt 2 ]]; then
+                        configfile="$(dequote "${1:2}")";
+                    else
+                        shift;
+                        [[ -n $1 ]] && configfile="$(dequote "$1")";
+                    fi;
+                    break;
+                fi;
+                shift;
+            done;
+            _known_hosts_real -a -F "$configfile" "$cur";
+        fi;
+    fi;
+    return 0
+}
+_shells () 
+{ 
+    local shell rest;
+    while read -r shell rest; do
+        [[ $shell == /* && $shell == "$cur"* ]] && COMPREPLY+=($shell);
+    done 2> /dev/null < /etc/shells
+}
+_signals () 
+{ 
+    local -a sigs=($( compgen -P "$1" -A signal "SIG${cur#$1}" ));
+    COMPREPLY+=("${sigs[@]/#${1}SIG/${1}}")
+}
+_split_longopt () 
+{ 
+    if [[ "$cur" == --?*=* ]]; then
+        prev="${cur%%?(\\)=*}";
+        cur="${cur#*=}";
+        return 0;
+    fi;
+    return 1
+}
+_ssh () 
+{ 
+    local cur prev words cword;
+    _init_completion -n : || return;
+    local configfile;
+    local -a config;
+    _ssh_suboption_check && return 0;
+    case $prev in 
+        -F | -i | -S)
+            _filedir;
+            return 0
+        ;;
+        -c)
+            _ssh_ciphers;
+            return 0
+        ;;
+        -m)
+            _ssh_macs;
+            return 0
+        ;;
+        -l)
+            COMPREPLY=($( compgen -u -- "$cur" ));
+            return 0
+        ;;
+        -o)
+            _ssh_options;
+            return 0
+        ;;
+        -w)
+            _available_interfaces;
+            return 0
+        ;;
+        -b)
+            _ip_addresses;
+            return 0
+        ;;
+        -D | -e | -I | -L | -O | -p | -R | -W)
+            return 0
+        ;;
+    esac;
+    if [[ "$cur" == -F* ]]; then
+        cur=${cur#-F};
+        _filedir;
+        COMPREPLY=("${COMPREPLY[@]/#/-F}");
+        cur=-F$cur;
+    else
+        if [[ "$cur" == -* ]]; then
+            COMPREPLY=($( compgen -W '$( _parse_usage "$1" )' -- "$cur" ));
+        else
+            set -- "${words[@]}";
+            while [[ $# -gt 0 ]]; do
+                if [[ $1 == -F* ]]; then
+                    if [[ ${#1} -gt 2 ]]; then
+                        configfile="$(dequote "${1:2}")";
+                    else
+                        shift;
+                        [[ -n $1 ]] && configfile="$(dequote "$1")";
+                    fi;
+                    break;
+                fi;
+                shift;
+            done;
+            _known_hosts_real -a -F "$configfile" "$cur";
+            if [[ $cword -ne 1 ]]; then
+                compopt -o filenames;
+                COMPREPLY+=($( compgen -c -- "$cur" ));
+            fi;
+        fi;
+    fi;
+    return 0
+}
+_ssh_ciphers () 
+{ 
+    COMPREPLY+=($( compgen -W '3des-cbc aes128-cbc \
+        aes192-cbc aes256-cbc aes128-ctr aes192-ctr aes256-ctr arcfour128 \
+        arcfour256 arcfour blowfish-cbc cast128-cbc' -- "$cur" ))
+}
+_ssh_macs () 
+{ 
+    COMPREPLY+=($( compgen -W 'hmac-md5 hmac-sha1 \
+        umac-64@openssh.com hmac-ripemd160 hmac-sha1-96 hmac-md5-96'         -- "$cur" ))
+}
+_ssh_options () 
+{ 
+    compopt -o nospace;
+    COMPREPLY=($( compgen -S = -W 'AddressFamily BatchMode BindAddress \
+        ChallengeResponseAuthentication CheckHostIP Cipher Ciphers \
+        ClearAllForwardings Compression CompressionLevel ConnectionAttempts \
+        ConnectTimeout ControlMaster ControlPath DynamicForward EscapeChar \
+        ExitOnForwardFailure ForwardAgent ForwardX11 ForwardX11Trusted \
+        GatewayPorts GlobalKnownHostsFile GSSAPIAuthentication \
+        GSSAPIDelegateCredentials HashKnownHosts Host HostbasedAuthentication \
+        HostKeyAlgorithms HostKeyAlias HostName IdentityFile IdentitiesOnly \
+        KbdInteractiveDevices LocalCommand LocalForward LogLevel MACs \
+        NoHostAuthenticationForLocalhost NumberOfPasswordPrompts \
+        PasswordAuthentication PermitLocalCommand Port \
+        PreferredAuthentications Protocol ProxyCommand PubkeyAuthentication \
+        RekeyLimit RemoteForward RhostsRSAAuthentication RSAAuthentication \
+        SendEnv ServerAliveInterval ServerAliveCountMax SmartcardDevice \
+        StrictHostKeyChecking TCPKeepAlive Tunnel TunnelDevice \
+        UsePrivilegedPort User UserKnownHostsFile VerifyHostKeyDNS \
+        VisualHostKey XAuthLocation' -- "$cur" ))
+}
+_ssh_suboption () 
+{ 
+    local prev=${1%%=*} cur=${1#*=};
+    case $prev in 
+        BatchMode | ChallengeResponseAuthentication | CheckHostIP | ClearAllForwardings | Compression | ExitOnForwardFailure | ForwardAgent | ForwardX11 | ForwardX11Trusted | GatewayPorts | GSSAPIAuthentication | GSSAPIKeyExchange | GSSAPIDelegateCredentials | GSSAPITrustDns | HashKnownHosts | HostbasedAuthentication | IdentitiesOnly | KbdInteractiveAuthentication | KbdInteractiveDevices | NoHostAuthenticationForLocalhost | PasswordAuthentication | PubkeyAuthentication | RhostsRSAAuthentication | RSAAuthentication | StrictHostKeyChecking | TCPKeepAlive | UsePrivilegedPort | VerifyHostKeyDNS | VisualHostKey)
+            COMPREPLY=($( compgen -W 'yes no' -- "$cur"))
+        ;;
+        AddressFamily)
+            COMPREPLY=($( compgen -W 'any inet inet6' -- "$cur" ))
+        ;;
+        BindAddress)
+            _ip_addresses
+        ;;
+        Cipher)
+            COMPREPLY=($( compgen -W 'blowfish des 3des' -- "$cur" ))
+        ;;
+        Protocol)
+            COMPREPLY=($( compgen -W '1 2 1,2 2,1' -- "$cur" ))
+        ;;
+        Tunnel)
+            COMPREPLY=($( compgen -W 'yes no point-to-point ethernet'                     -- "$cur" ))
+        ;;
+        PreferredAuthentications)
+            COMPREPLY=($( compgen -W 'gssapi-with-mic host-based \
+                    publickey keyboard-interactive password' -- "$cur" ))
+        ;;
+        MACs)
+            _ssh_macs
+        ;;
+        Ciphers)
+            _ssh_ciphers
+        ;;
+    esac;
+    return 0
+}
+_ssh_suboption_check () 
+{ 
+    local cureq=`_get_cword :=` preveq=`_get_pword :=`;
+    if [[ $cureq == *=* && $preveq == -o ]]; then
+        _ssh_suboption $cureq;
+        return $?;
+    fi;
+    return 1
+}
+_subdirectories () 
+{ 
+    COMPREPLY=($( cd $1 && compgen -d -- "$cur" ))
+}
+_sysvdirs () 
+{ 
+    sysvdirs=();
+    [[ -d /etc/rc.d/init.d ]] && sysvdirs+=(/etc/rc.d/init.d);
+    [[ -d /etc/init.d ]] && sysvdirs+=(/etc/init.d);
+    [[ -f /etc/slackware-version ]] && sysvdirs=(/etc/rc.d)
+}
+_tar () 
+{ 
+    local cur prev words cword split;
+    _init_completion -s || return;
+    local ext regex tar untar;
+    if [[ $cword -eq 1 ]]; then
+        COMPREPLY=($( compgen -W 'c t x u r d A' -- "$cur" ));
+        return 0;
+    fi;
+    local tars='@(@(tar|gem|spkg)?(.@(Z|[gx]z|bz?(2)|lzma))|t@([glx]z|bz?(2)))';
+    case ${words[1]} in 
+        --*)
+
+        ;;
+        ?(-)*[cr]*f)
+            if [[ $cword -eq 2 ]]; then
+                ext='@(tar|gem|spkg)';
+                case ${words[1]} in 
+                    *a*)
+                        ext="$tars"
+                    ;;
+                    *z*)
+                        ext='t?(ar.)gz'
+                    ;;
+                    *Z*)
+                        ext='tar.Z'
+                    ;;
+                    *[jy]*)
+                        ext='t?(ar.)bz?(2)'
+                    ;;
+                    *J*)
+                        ext='t?(ar.)xz'
+                    ;;
+                esac;
+                _filedir $ext;
+            else
+                _filedir;
+            fi;
+            return 0
+        ;;
+        +([^IZzJjy])f)
+            ext="$tars";
+            regex='\(\(tar\|gem\|spkg\)\(\.\(Z\|[gx]z\|bz2\?\|lzma\)\)\?\|t\([glx]z\|bz2\?\)\)'
+        ;;
+        *[Zz]*f)
+            ext='@(t?(ar.)|gem.|spkg.)@(gz|Z)';
+            regex='\(t\(ar\.\)\?\|gem\.\|spkg\.\)\(gz\|Z\)'
+        ;;
+        *[Ijy]*f)
+            ext='@(@(t?(ar.)|gem.)bz?(2)|spkg)';
+            regex='\(\(t\(ar\.\)\?\|gem\.\)bz2\?\|spkg\)'
+        ;;
+        *[J]*f)
+            ext='@(t?(ar.)|gem.|spkg.)@(lz?(ma)|xz)';
+            regex='\(t\(ar\.\)\?\|gem\.\|spkg\.\)\(lzma\|xz\)\?'
+        ;;
+        *)
+            _filedir;
+            return 0
+        ;;
+    esac;
+    case $prev in 
+        *$ext)
+            tar=$( sed -e 's/^.* \([^ ]*'$regex'\) .*$/\1/' <<<"${words[@]}" );
+            untar=t${words[1]//[^IJzjyf]/};
+            local IFS='
+';
+            COMPREPLY=($( compgen -W "$( printf '%s\n' $( tar $untar $tar                 2>/dev/null ) )" -- "$cur" ));
+            return 0
+        ;;
+        -C | --directory)
+            _filedir -d;
+            return 0
+        ;;
+        --atime-preserve)
+            COMPREPLY=($( compgen -W 'replace system' -- "$cur" ));
+            return 0
+        ;;
+        --group)
+            COMPREPLY=($( compgen -g -- "$cur" ));
+            return 0
+        ;;
+        --owner)
+            COMPREPLY=($( compgen -u -- "$cur" ));
+            return 0
+        ;;
+        -F | --info-script | --new-volume-script | --rmt-command | --rsh-command | -I | --use-compress-program)
+            compopt -o filenames;
+            COMPREPLY=($( compgen -c -- "$cur" ));
+            return 0
+        ;;
+        --volno-file | --add-file | -T | --files-from | -X | --exclude-from | --index-file)
+            _filedir;
+            return 0
+        ;;
+        -H | --format)
+            COMPREPLY=($( compgen -W 'gnu oldgnu pax posix ustar v7'                 -- "$cur" ));
+            return 0
+        ;;
+        --quoting-style)
+            COMPREPLY=($( compgen -W 'literal shell shell-always c c-maybe
+                escape locale clocale' -- "$cur" ));
+            return 0
+        ;;
+        --totals)
+            COMPREPLY=($( compgen -W 'SIGHUP SIGQUIT SIGINT SIGUSR1 SIGUSR2'                 -- "$cur" ));
+            return 0
+        ;;
+        --occurrence | --sparse-version | --to-command | --mode | --mtime | --tape-length | -b | --blocking-factor | --record-size | -V | --text | --backup | --exclude | --exclude-tag* | -K | --starting-file | -N | --newer | --after-date | --suffix | --strip-components | --transform | --xform | --checkpoint | --checkpoint-action | --no-quote-chars | --quote-chars | --warnings)
+            return 0
+        ;;
+    esac;
+    $split && return 0;
+    _filedir "$ext";
+    return 0
+}
+_terms () 
+{ 
+    COMPREPLY+=($( compgen -W         "$( sed -ne 's/^\([^[:space:]#|]\{2,\}\)|.*/\1/p' /etc/termcap             2>/dev/null )" -- "$cur" ));
+    COMPREPLY+=($( compgen -W "$( { toe -a 2>/dev/null || toe 2>/dev/null; }         | awk '{ print $1 }' | sort -u )" -- "$cur" ))
+}
+_tilde () 
+{ 
+    local result=0;
+    if [[ $1 == \~* && $1 != */* ]]; then
+        COMPREPLY=($( compgen -P '~' -u "${1#\~}" ));
+        result=${#COMPREPLY[@]};
+        [[ $result -gt 0 ]] && compopt -o filenames 2> /dev/null;
+    fi;
+    return $result
+}
+_ufw () 
+{ 
+    cur=${COMP_WORDS[COMP_CWORD]};
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    if [ $COMP_CWORD -eq 1 ]; then
+        COMPREPLY=($( compgen -W "$(_ufw_commands)" $cur ));
+    else
+        if [ $COMP_CWORD -eq 2 ]; then
+            case "$prev" in 
+                app)
+                    COMPREPLY=($( compgen -W "$(_ufw_app_commands)" $cur ))
+                ;;
+                status)
+                    COMPREPLY=($( compgen -W "$(_ufw_status_commands)" $cur ))
+                ;;
+                delete)
+                    COMPREPLY=($( compgen -W "$(_ufw_rule_commands)" $cur ))
+                ;;
+                logging)
+                    COMPREPLY=($( compgen -W "$(_ufw_logging_commands)" $cur ))
+                ;;
+                show)
+                    COMPREPLY=($( compgen -W "$(_ufw_show_commands)" $cur ))
+                ;;
+                default)
+                    COMPREPLY=($( compgen -W "$(_ufw_default_commands)" $cur ))
+                ;;
+            esac;
+        fi;
+    fi
+}
+_ufw_app_commands () 
+{ 
+    ufw --help | sed -e '1,/^Application profile commands:/d' -e '/^ [^ ]/!d' -e 's/[ \t]\+app[ \t]\+\([a-z|]\+\)[ \t]\+.*/\1/g'
+}
+_ufw_commands () 
+{ 
+    commands=$(ufw --help | sed -e '1,/^Commands:/d' -e '/^Application profile commands:/Q' -e 's/^[ \t]\+\([a-z|]\+\)[ \t]\+.*/\1/g' -e 's/|/ /g' | uniq);
+    echo "$commands app"
+}
+_ufw_default_commands () 
+{ 
+    echo "allow deny reject"
+}
+_ufw_logging_commands () 
+{ 
+    echo "off on low medium high full"
+}
+_ufw_rule_commands () 
+{ 
+    echo "`_ufw_default_commands` limit"
+}
+_ufw_show_commands () 
+{ 
+    echo "raw"
+}
+_ufw_status_commands () 
+{ 
+    echo "numbered verbose"
+}
+_uids () 
+{ 
+    if type getent &>/dev/null; then
+        COMPREPLY=($( compgen -W '$( getent passwd | cut -d: -f3 )' -- "$cur" ));
+    else
+        if type perl &>/dev/null; then
+            COMPREPLY=($( compgen -W '$( perl -e '"'"'while (($uid) = (getpwent)[2]) { print $uid . "\n" }'"'"' )' -- "$cur" ));
+        else
+            COMPREPLY=($( compgen -W '$( cut -d: -f3 /etc/passwd )' -- "$cur" ));
+        fi;
+    fi
+}
+_update_initramfs () 
+{ 
+    local cur prev valid_options;
+    cur=$(_get_cword);
+    prev=${COMP_WORDS[COMP_CWORD-1]};
+    if [[ "$prev" == '-k' ]]; then
+        _kernel_versions;
+        COMPREPLY=($( compgen -W '${COMPREPLY[@]} all' -- "$cur" ));
+        return;
+    fi;
+    valid_options=$( update-initramfs -h 2>&1 | 		sed -e '/^ -/!d;s/^ \(-\w\+\).*/\1/' );
+    COMPREPLY=($( compgen -W "$valid_options" -- $cur ))
+}
+_upstart_events () 
+{ 
+    ( cd /etc/init && egrep --color=auto '^[[:space:]]*emits ' *.conf | cut -d: -f2- | sed 's/^[[:space:]]*emits //g' | tr ' ' '\n' | awk '{print $NF}' | grep --color=auto -v ^$ | sort -u )
+}
+_upstart_initctl () 
+{ 
+    _get_comp_words_by_ref cur prev;
+    COMPREPLY=();
+    case "$prev" in 
+        start)
+            COMPREPLY=($(compgen -W "-n --no-wait $(_upstart_startable_jobs)" -- ${cur}));
+            return 0
+        ;;
+        stop)
+            COMPREPLY=($(compgen -W "-n --no-wait $(_upstart_stoppable_jobs)" -- ${cur}));
+            return 0
+        ;;
+        emit)
+            COMPREPLY=($(compgen -W "-n --no-wait $(_upstart_events)" -- ${cur}));
+            return 0
+        ;;
+        -i | --ignore-events)
+            for cmd in check-config;
+            do
+                cwords=${COMP_WORDS[@]##};
+                filtered_cwords=${COMP_WORDS[@]##${cmd}};
+                if [ "$filtered_cwords" != "$cwords" ]; then
+                    COMPREPLY=($(compgen -W "$(_upstart_jobs)" -- ${cur}));
+                    return 0;
+                fi;
+            done
+        ;;
+        -e | --enumerate)
+            for cmd in show-config;
+            do
+                cwords=${COMP_WORDS[@]##};
+                filtered_cwords=${COMP_WORDS[@]##${cmd}};
+                if [ "$filtered_cwords" != "$cwords" ]; then
+                    COMPREPLY=($(compgen -W "$(_upstart_jobs)" -- ${cur}));
+                    return 0;
+                fi;
+            done
+        ;;
+        reload | restart)
+            COMPREPLY=($(compgen -W "-n --no-wait $(_upstart_stoppable_jobs)" -- ${cur}));
+            return 0
+        ;;
+        status)
+            COMPREPLY=($(compgen -W "$(_upstart_jobs)" -- ${cur}));
+            return 0
+        ;;
+        check-config)
+            COMPREPLY=($(compgen -W "-w --warn -i --ignore-events= $(_upstart_jobs)" -- ${cur}));
+            return 0
+        ;;
+        show-config)
+            COMPREPLY=($(compgen -W "-e --enumerate $(_upstart_jobs)" -- ${cur}));
+            return 0
+        ;;
+        -n | --no-wait)
+            for cmd in start stop restart emit;
+            do
+                cwords=${COMP_WORDS[@]##};
+                filtered_cwords=${COMP_WORDS[@]##${cmd}};
+                if [ "$filtered_cwords" != "$cwords" ]; then
+                    case "$cmd" in 
+                        start)
+                            COMPREPLY=($(compgen -W "$(_upstart_startable_jobs)" -- ${cur}))
+                        ;;
+                        stop)
+                            COMPREPLY=($(compgen -W "$(_upstart_stoppable_jobs)" -- ${cur}))
+                        ;;
+                        restart)
+                            COMPREPLY=($(compgen -W "$(_upstart_stoppable_jobs)" -- ${cur}))
+                        ;;
+                        emit)
+                            COMPREPLY=($(compgen -W "$(_upstart_events)" -- ${cur}))
+                        ;;
+                    esac;
+                    return 0;
+                fi;
+            done
+        ;;
+        --help | --version)
+            COMPREPLY=();
+            return 0
+        ;;
+    esac;
+    opts="--help --version -q --quiet -v --verbose --session --system --dest=";
+    cmds=$(initctl help|grep "^  [^ ]"|awk '{print $1}');
+    COMPREPLY=($(compgen -W "${opts} ${cmds}" -- ${cur}))
+}
+_upstart_jobs () 
+{ 
+    initctl list | awk '{print $1}' | sort -u
+}
+_upstart_reload () 
+{ 
+    COMPREPLY=();
+    _get_comp_words_by_ref cur prev;
+    opts="--help --version -q --quiet -v --verbose --session --system --dest=";
+    case "$prev" in 
+        --help | --version)
+            COMPREPLY=();
+            return 0
+        ;;
+    esac;
+    COMPREPLY=($(compgen -W "$opts $(_upstart_stoppable_jobs)" -- ${cur}));
+    return 0
+}
+_upstart_restart () 
+{ 
+    COMPREPLY=();
+    _get_comp_words_by_ref cur prev;
+    opts="--help --version -q --quiet -v --verbose --session --system --dest=         -n --no-wait";
+    case "$prev" in 
+        --help | --version)
+            COMPREPLY=();
+            return 0
+        ;;
+    esac;
+    COMPREPLY=($(compgen -W "$opts $(_upstart_stoppable_jobs)" -- ${cur}));
+    return 0
+}
+_upstart_start () 
+{ 
+    COMPREPLY=();
+    _get_comp_words_by_ref cur prev;
+    opts="--help --version -q --quiet -v --verbose --session --system --dest=         -n --no-wait";
+    case "$prev" in 
+        --help | --version)
+            COMPREPLY=();
+            return 0
+        ;;
+    esac;
+    COMPREPLY=($(compgen -W "$opts $(_upstart_startable_jobs)" -- ${cur}));
+    return 0
+}
+_upstart_startable_jobs () 
+{ 
+    initctl list | cut -d\, -f1 | awk '$2 == "stop/waiting" {print $1}'
+}
+_upstart_status () 
+{ 
+    COMPREPLY=();
+    _get_comp_words_by_ref cur prev;
+    opts="--help --version -q -d --detail -e --enumerate --quiet -v --verbose --session --system --dest=";
+    case "$prev" in 
+        --help | --version)
+            COMPREPLY=();
+            return 0
+        ;;
+    esac;
+    COMPREPLY=($(compgen -W "$opts $(_upstart_jobs)" -- ${cur}));
+    return 0
+}
+_upstart_stop () 
+{ 
+    COMPREPLY=();
+    _get_comp_words_by_ref cur prev;
+    opts="--help --version -q --quiet -v --verbose --session --system --dest=         -n --no-wait";
+    case "$prev" in 
+        --help | --version)
+            COMPREPLY=();
+            return 0
+        ;;
+    esac;
+    COMPREPLY=($(compgen -W "$opts $(_upstart_stoppable_jobs)" -- ${cur}));
+    return 0
+}
+_upstart_stoppable_jobs () 
+{ 
+    initctl list | cut -d\, -f1 | awk '$2 == "start/running" {print $1}'
+}
+_upvar () 
+{ 
+    if unset -v "$1"; then
+        if (( $# == 2 )); then
+            eval $1=\"\$2\";
+        else
+            eval $1=\(\"\${@:2}\"\);
+        fi;
+    fi
+}
+_upvars () 
+{ 
+    if ! (( $# )); then
+        echo "${FUNCNAME[0]}: usage: ${FUNCNAME[0]} [-v varname" "value] | [-aN varname [value ...]] ..." 1>&2;
+        return 2;
+    fi;
+    while (( $# )); do
+        case $1 in 
+            -a*)
+                [[ -n ${1#-a} ]] || { 
+                    echo "bash: ${FUNCNAME[0]}: \`$1': missing" "number specifier" 1>&2;
+                    return 1
+                };
+                printf %d "${1#-a}" &>/dev/null || { 
+                    echo "bash:" "${FUNCNAME[0]}: \`$1': invalid number specifier" 1>&2;
+                    return 1
+                };
+                [[ -n "$2" ]] && unset -v "$2" && eval $2=\(\"\${@:3:${1#-a}}\"\) && shift $((${1#-a} + 2)) || { 
+                    echo "bash: ${FUNCNAME[0]}:" "\`$1${2+ }$2': missing argument(s)" 1>&2;
+                    return 1
+                }
+            ;;
+            -v)
+                [[ -n "$2" ]] && unset -v "$2" && eval $2=\"\$3\" && shift 3 || { 
+                    echo "bash: ${FUNCNAME[0]}: $1: missing" "argument(s)" 1>&2;
+                    return 1
+                }
+            ;;
+            *)
+                echo "bash: ${FUNCNAME[0]}: $1: invalid option" 1>&2;
+                return 1
+            ;;
+        esac;
+    done
+}
+_usb_ids () 
+{ 
+    COMPREPLY+=($( compgen -W         "$( PATH="$PATH:/sbin" lsusb | awk '{print $6}' )" -- "$cur" ))
+}
+_user_at_host () 
+{ 
+    local cur prev words cword;
+    _init_completion -n : || return;
+    if [[ $cur == *@* ]]; then
+        _known_hosts_real "$cur";
+    else
+        COMPREPLY=($( compgen -u -- "$cur" ));
+    fi;
+    return 0
+}
+_usergroup () 
+{ 
+    if [[ $cur = *\\\\* || $cur = *:*:* ]]; then
+        return;
+    else
+        if [[ $cur = *\\:* ]]; then
+            local prefix;
+            prefix=${cur%%*([^:])};
+            prefix=${prefix//\\};
+            local mycur="${cur#*[:]}";
+            if [[ $1 == -u ]]; then
+                _allowed_groups "$mycur";
+            else
+                local IFS='
+';
+                COMPREPLY=($( compgen -g -- "$mycur" ));
+            fi;
+            COMPREPLY=($( compgen -P "$prefix" -W "${COMPREPLY[@]}" ));
+        else
+            if [[ $cur = *:* ]]; then
+                local mycur="${cur#*:}";
+                if [[ $1 == -u ]]; then
+                    _allowed_groups "$mycur";
+                else
+                    local IFS='
+';
+                    COMPREPLY=($( compgen -g -- "$mycur" ));
+                fi;
+            else
+                if [[ $1 == -u ]]; then
+                    _allowed_users "$cur";
+                else
+                    local IFS='
+';
+                    COMPREPLY=($( compgen -u -- "$cur" ));
+                fi;
+            fi;
+        fi;
+    fi
+}
+_userland () 
+{ 
+    local userland=$( uname -s );
+    [[ $userland == @(Linux|GNU/*) ]] && userland=GNU;
+    [[ $userland == $1 ]]
+}
+_variables () 
+{ 
+    if [[ $cur =~ ^(\$\{?)([A-Za-z0-9_]*)$ ]]; then
+        [[ $cur == *{* ]] && local suffix=} || local suffix=;
+        COMPREPLY+=($( compgen -P ${BASH_REMATCH[1]} -S "$suffix" -v --             "${BASH_REMATCH[2]}" ));
+        return 0;
+    fi;
+    return 1
+}
+_xfunc () 
+{ 
+    set -- "$@";
+    local srcfile=$1;
+    shift;
+    declare -F $1 &>/dev/null || { 
+        local compdir=./completions;
+        [[ $BASH_SOURCE == */* ]] && compdir="${BASH_SOURCE%/*}/completions";
+        . "$compdir/$srcfile"
+    };
+    "$@"
+}
+_xinetd_services () 
+{ 
+    local xinetddir=/etc/xinetd.d;
+    if [[ -d $xinetddir ]]; then
+        local restore_nullglob=$(shopt -p nullglob);
+        shopt -s nullglob;
+        local -a svcs=($( printf '%s\n' $xinetddir/!($_backup_glob) ));
+        $restore_nullglob;
+        COMPREPLY+=($( compgen -W '${svcs[@]#$xinetddir/}' -- "$cur" ));
+    fi
+}
+_zeitgeist_daemon () 
+{ 
+    local cur=${COMP_WORDS[COMP_CWORD]};
+    COMPREPLY=($(compgen -W "`zeitgeist-daemon --shell-completion`" -- $cur))
+}
+command_not_found_handle () 
+{ 
+    if [ -x /usr/lib/command-not-found ]; then
+        /usr/lib/command-not-found -- "$1";
+        return $?;
+    else
+        if [ -x /usr/share/command-not-found/command-not-found ]; then
+            /usr/share/command-not-found/command-not-found -- "$1";
+            return $?;
+        else
+            printf "%s: command not found\n" "$1" 1>&2;
+            return 127;
+        fi;
+    fi
+}
+dequote () 
+{ 
+    eval printf %s "$1" 2> /dev/null
+}
+quote () 
+{ 
+    local quoted=${1//\'/\'\\\'\'};
+    printf "'%s'" "$quoted"
+}
+quote_readline () 
+{ 
+    local quoted;
+    _quote_readline_by_ref "$1" ret;
+    printf %s "$ret"
+}

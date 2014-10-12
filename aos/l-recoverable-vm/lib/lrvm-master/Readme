@@ -1,0 +1,36 @@
+Lightweight recoverable virtual memory (librvm.a)
+Vinay Bharadwaj
+
+
+HOW TO COMPILE:
+1) Extract the contents of the .tar file into a directory. 
+2) A makefile has been provided in the archive. Run make to make the library as follows:
+	
+	$make
+
+3) This creates the file librvm.a .
+4) Compile the source file with librvm.a as follows:
+	
+	$cc <src_file.c> -l librvm.a
+
+5) Run the program:
+
+	$./a.out
+
+
+LOG FILES:
+
+We have one log file with the same structure as mentioned in the lightweight recoverable memory paper with small modifications. The log file has the following structure:
+
+	$<trans_id>_<n or c>_@<seg_name>_<begin_offset>_<seg_data>@<seg_name>_<begin_offset>_<seg_data>.........$
+
+where <trans_id> is the transaction id, <n or c> indicates whether the transaction has been committed or not, <test_name> has the name of the segment, <begin_offset> has the offset followed my <seg_data> which has the segment data. Any number of <begin_offset> and <seg_data> can exist for a particular segment. 
+
+Each segment record is separated by the '@' symbol and each transaction record is separated by the '$' symbol.
+
+
+To prevent the log file from becoming indefinitely huge, we have implemented the truncate_log function in the library which may be called to truncate the log. The function truncates all the transaction records where the transaction has been committed.
+
+
+
+

@@ -1,0 +1,26 @@
+
+../bin/CMPsim.usetrace.64 -threads 1 -t ../traces/429.mcf.ref_200M.out.trace.gz -cache UL3:1024:64:16 -icount 1 -o test.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_bwaves -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o bwavesdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_cactus -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o cactusdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_zeus -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o zeusdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_gems -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o gemsdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_sphinx -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o sphinxdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_hmmer -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o hmmerdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_9mbhs -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o 9mbhsdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_9mbhs -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o 9mbhslru_150_4k.stats.gz -LLCrepl 0 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_10gbzc -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o 10gbzcdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_10gbzc -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o 10gbzcLRU_150_4k.stats.gz -LLCrepl 0 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_11mgbc -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o 11mgbcdrrip_150_4k.stats.gz -LLCrepl 2 &
+
+../bin/CMPsim.usetrace.64 -threads 4 -mix ../traces/mix_11mgbc -cache UL3:4096:64:16 -autorewind 1 -icount 150 -o 11mgbcLRU_150_4k.stats.gz -LLCrepl 0 &

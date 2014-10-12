@@ -1,0 +1,42 @@
+libgpg_error_la-strsource.lo: strsource.c ../config.h gpg-error.h \
+ /usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h gettext.h \
+ /usr/include/libintl.h /usr/include/features.h \
+ /usr/include/stdc-predef.h /usr/include/i386-linux-gnu/bits/predefs.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h /usr/include/locale.h \
+ /usr/include/i386-linux-gnu/bits/locale.h /usr/include/xlocale.h \
+ err-sources.h
+
+../config.h:
+
+gpg-error.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.7/include/stddef.h:
+
+gettext.h:
+
+/usr/include/libintl.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
+/usr/include/i386-linux-gnu/sys/cdefs.h:
+
+/usr/include/i386-linux-gnu/bits/wordsize.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs.h:
+
+/usr/include/i386-linux-gnu/gnu/stubs-32.h:
+
+/usr/include/locale.h:
+
+/usr/include/i386-linux-gnu/bits/locale.h:
+
+/usr/include/xlocale.h:
+
+err-sources.h:

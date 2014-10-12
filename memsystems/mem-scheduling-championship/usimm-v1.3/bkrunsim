@@ -1,0 +1,35 @@
+
+#bin/usimm input/1channel.cfg input/comm2 > output/c2-1 &
+#bin/usimm input/1channel.cfg input/comm1 input/comm1 > output/c1-c1-1 &
+#bin/usimm input/1channel.cfg input/comm1 input/comm1 input/comm2 input/comm2 > output/c1-c1-c2-c2-1 &
+#bin/usimm input/1channel.cfg input/MT0-canneal input/MT1-canneal input/MT2-canneal input/MT3-canneal > output/MTc-1 &
+#bin/usimm input/1channel.cfg input/fluid input/swapt input/comm2 input/comm2 > output/fl-sw-c2-c2-1 &
+#bin/usimm input/1channel.cfg input/face input/face input/ferret input/ferret > output/fa-fa-fe-fe-1 &
+#bin/usimm input/1channel.cfg input/black input/black input/freq input/freq > output/bl-bl-fr-fr-1 &
+#bin/usimm input/1channel.cfg input/stream input/stream input/stream input/stream > output/st-st-st-st-1 &
+
+#bin/usimm input/4channel.cfg input/trace_test > output/test_frfcfs 4 &
+#for (( x=1; x<=64; x=x*2 ))
+#do
+	bin/usimm input/4channel.cfg input/A input/A input/A input/A > output/frfcfs/frfcfs1_$x $x &
+	bin/usimm input/4channel.cfg input/B input/B input/B input/B > output/frfcfs/frfcfs2_$x $x &
+	bin/usimm input/4channel.cfg input/C input/C input/C input/C > output/frfcfs/frfcfs3_$x $x &
+	bin/usimm input/4channel.cfg input/D input/D input/D input/D > output/frfcfs/frfcfs4_$x $x &
+	bin/usimm input/4channel.cfg input/E input/E input/E input/E > output/frfcfs/frfcfs5_$x $x &
+	bin/usimm input/4channel.cfg input/A input/B input/C input/D > output/frfcfs/frfcfs6_$x $x &
+	bin/usimm input/4channel.cfg input/A input/B input/C input/E > output/frfcfs/frfcfs7_$x $x &
+	bin/usimm input/4channel.cfg input/A input/B input/D input/E > output/frfcfs/frfcfs8_$x $x &
+	bin/usimm input/4channel.cfg input/A input/C input/D input/E > output/frfcfs/frfcfs9_$x $x &
+	bin/usimm input/4channel.cfg input/B input/C input/D input/E > output/frfcfs/frfcfs10_$x $x &
+#done
+
+#bin/usimm input/4channel.cfg input/comm1 input/comm1 > output/c1-c1-4 &
+#bin/usimm input/4channel.cfg input/comm1 input/comm1 input/comm2 input/comm2 > output/c1-c1-c2-c2-4 &
+#bin/usimm input/4channel.cfg input/MT0-canneal input/MT1-canneal input/MT2-canneal input/MT3-canneal > output/MTc-4 &
+#bin/usimm input/4channel.cfg input/fluid input/swapt input/comm2 input/comm2 > output/fl-sw-c2-c2-4 &
+#bin/usimm input/4channel.cfg input/face input/face input/ferret input/ferret > output/fa-fa-fe-fe-4 &
+#bin/usimm input/4channel.cfg input/black input/black input/freq input/freq > output/bl-bl-fr-fr-4 &
+#bin/usimm input/4channel.cfg input/stream input/stream input/stream input/stream > output/st-st-st-st-4 &
+#bin/usimm input/4channel.cfg input/fluid input/fluid input/swapt input/swapt input/comm2 input/comm2 input/ferret input/ferret > output/fl-fl-sw-sw-c2-c2-fe-fe-4 &
+#bin/usimm input/4channel.cfg input/fluid input/fluid input/swapt input/swapt input/comm2 input/comm2 input/ferret input/ferret input/black input/black input/freq input/freq #input/comm1 input/comm1 input/stream input/stream > output/fl-fl-sw-sw-c2-c2-fe-fe-bl-bl-fr-fr-c1-c1-st-st-4 &
+
